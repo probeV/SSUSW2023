@@ -38,9 +38,6 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Default
-    uniqueID: 0
-    locked: 0
   - name: Tile
     uniqueID: 4290966259
     locked: 0
@@ -49,4 +46,10 @@ TagManager:
     locked: 0
   - name: Furniture
     uniqueID: 3350614413
+    locked: 0
+  - name: New Layer 4
+    uniqueID: 3140711087
+    locked: 0
+  - name: Default
+    uniqueID: 0
     locked: 0
