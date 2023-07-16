@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 8f669d8e8d0e8e846a2e43a74fef64dc
+guid: 6a00c7c8fb3a02645b4e62ba94a24a89
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Sprite_Object_Furniture_0
+      name: female2_0
       rect:
         serializedVersion: 2
         x: 1
-        y: 138
-        width: 14
-        height: 21
+        y: 97
+        width: 20
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: acad1124fcd45944093f5c68fdb69f34
-      internalID: -1127179078
+      spriteID: b32de2a53f64adc47811ed30a41aa3db
+      internalID: -1988645867
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Object_Furniture_1
+      name: female2_1
       rect:
         serializedVersion: 2
-        x: 17
-        y: 138
-        width: 14
-        height: 21
+        x: 22
+        y: 97
+        width: 20
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8c7e713f0c7e184280226cda97a0559
-      internalID: -1518369060
+      spriteID: d083eca1ca1cdc3479639f346c8a518f
+      internalID: -234270696
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Object_Furniture_2
+      name: female2_2
       rect:
         serializedVersion: 2
-        x: 33
-        y: 138
-        width: 14
-        height: 21
+        x: 43
+        y: 97
+        width: 20
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,20 +179,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 27fdbe89843351e488245965ace541ed
-      internalID: -1558641632
+      spriteID: cf7299da9cc528a4da3f600ca1849fb9
+      internalID: -83069338
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Object_Furniture_3
+      name: female2_3
       rect:
         serializedVersion: 2
-        x: 48
-        y: 131
-        width: 35
-        height: 28
+        x: 64
+        y: 97
+        width: 20
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,125 +200,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5282fd13e58c7cb439e895b82d924da8
-      internalID: 153321586
+      spriteID: d2a380b115d1d8a499848c328c621fbf
+      internalID: -1285221659
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Object_Furniture_4
-      rect:
-        serializedVersion: 2
-        x: 84
-        y: 131
-        width: 35
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 145658c174bf25344961df6a8f5048ad
-      internalID: -912027802
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprite_Object_Furniture_5
-      rect:
-        serializedVersion: 2
-        x: 120
-        y: 131
-        width: 35
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c4bffc0a3c73a0c419bc71568a70ac97
-      internalID: -881413582
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprite_Object_Furniture_6
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 112
-        width: 31
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7f468a03851a9714094008dda3bc515c
-      internalID: -1696253631
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprite_Object_Furniture_7
-      rect:
-        serializedVersion: 2
-        x: 35
-        y: 121
-        width: 10
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e53e9e707abe4cd49afebdc7a027c3b2
-      internalID: 345259006
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprite_Object_Furniture_8
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 105
-        width: 35
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b6c0ef5d1a726f440b7cbbc9a82c3ea1
-      internalID: -2083841276
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprite_Object_Furniture_9
+      name: female2_4
       rect:
         serializedVersion: 2
         x: 85
-        y: 105
-        width: 35
-        height: 25
+        y: 98
+        width: 19
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -326,41 +221,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 63ca846f0969f384bb574f70c520a90f
-      internalID: -62482731
+      spriteID: 2710cabdd1b47b748aa62b4244c27496
+      internalID: 1493202723
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Object_Furniture_10
-      rect:
-        serializedVersion: 2
-        x: 121
-        y: 105
-        width: 35
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 45934ea3c636c7345b68a1d24d351856
-      internalID: -427664691
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprite_Object_Furniture_11
+      name: female2_5
       rect:
         serializedVersion: 2
         x: 1
-        y: 77
-        width: 31
-        height: 34
+        y: 64
+        width: 19
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -368,20 +242,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea7fb3bd497828e43b937be46335874d
-      internalID: -2143585693
+      spriteID: 0f1322ce2caab774695ee05efb5f5638
+      internalID: 565762451
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Object_Furniture_12
+      name: female2_6
       rect:
         serializedVersion: 2
-        x: 35
-        y: 109
-        width: 10
-        height: 11
+        x: 21
+        y: 64
+        width: 20
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -389,20 +263,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e1f6f2fe47880014ba4c1ee7e1185d6d
-      internalID: 211596787
+      spriteID: 4a567a4b068d20d48afc459526875e04
+      internalID: -924377346
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Object_Furniture_13
+      name: female2_7
       rect:
         serializedVersion: 2
-        x: 33
-        y: 72
-        width: 32
-        height: 32
+        x: 42
+        y: 64
+        width: 20
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -410,20 +284,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 647fe7d56ff12584680fa3a55a126a23
-      internalID: -2117787997
+      spriteID: 2ce77dd7e58638b4aafcb76312173725
+      internalID: 1357044391
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Object_Furniture_14
+      name: female2_8
       rect:
         serializedVersion: 2
-        x: 66
-        y: 72
-        width: 32
-        height: 32
+        x: 63
+        y: 65
+        width: 20
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -431,20 +305,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef77b6a31575790408060f0339af2e1c
-      internalID: -865495844
+      spriteID: 645881c340e3ada43919fb8b8911d407
+      internalID: -1648386747
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Object_Furniture_15
+      name: female2_9
       rect:
         serializedVersion: 2
-        x: 99
-        y: 72
-        width: 18
-        height: 28
+        x: 84
+        y: 65
+        width: 21
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -452,62 +326,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae876020010f89e44be517107a8a9172
-      internalID: -1022479295
+      spriteID: d29d90ae7f6dc1a468b528bc8e541089
+      internalID: -151755064
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Object_Furniture_16
-      rect:
-        serializedVersion: 2
-        x: 118
-        y: 72
-        width: 18
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 42b95ce867aea8241bffacce68cd713d
-      internalID: 2105013001
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprite_Object_Furniture_17
-      rect:
-        serializedVersion: 2
-        x: 137
-        y: 72
-        width: 18
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 522e9142f77446f42a36bc905202c245
-      internalID: -2112367375
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprite_Object_Furniture_18
+      name: female2_10
       rect:
         serializedVersion: 2
         x: 1
-        y: 50
-        width: 14
-        height: 21
+        y: 32
+        width: 20
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -515,20 +347,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29d4e48415c2c4d4ea389ec31b1ab8ed
-      internalID: 1643443372
+      spriteID: 5a1c998306137874da2df3b0d501a37d
+      internalID: -1835245699
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Object_Furniture_19
+      name: female2_11
       rect:
         serializedVersion: 2
-        x: 16
-        y: 50
-        width: 14
-        height: 21
+        x: 22
+        y: 32
+        width: 19
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -536,20 +368,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 690bb17ae6ddbec46a1036352f18c365
-      internalID: 1994132844
+      spriteID: 738e65b0a5432ec43befe35ab2fd0c49
+      internalID: -360132291
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Object_Furniture_20
+      name: female2_12
       rect:
         serializedVersion: 2
-        x: 31
-        y: 50
-        width: 14
-        height: 21
+        x: 42
+        y: 33
+        width: 19
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -557,20 +389,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb403eaac43e943498cf3c7b2729c1bc
-      internalID: -815891385
+      spriteID: d3e3810ca157e5d419884c5486e4e35c
+      internalID: 1300190294
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Object_Furniture_21
+      name: female2_13
       rect:
         serializedVersion: 2
-        x: 46
-        y: 53
-        width: 15
-        height: 18
+        x: 63
+        y: 33
+        width: 21
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -578,62 +410,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a7a61cccd4385d49b5b3c24999ecf45
-      internalID: 636319545
+      spriteID: 225f8155f59f31743bcb3d6b04ca64d9
+      internalID: -1095805654
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Object_Furniture_22
-      rect:
-        serializedVersion: 2
-        x: 62
-        y: 53
-        width: 15
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e27ee3336f5d4ff41913d753e2e4094b
-      internalID: 2068902483
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprite_Object_Furniture_23
-      rect:
-        serializedVersion: 2
-        x: 78
-        y: 53
-        width: 15
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5afcb7fb650653242b2a493a6dd74d94
-      internalID: 1508244339
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprite_Object_Furniture_24
+      name: female2_14
       rect:
         serializedVersion: 2
         x: 1
-        y: 28
-        width: 28
-        height: 21
+        y: 1
+        width: 22
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -641,8 +431,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a0830a8c07037743b17416be54a875c
-      internalID: 815845739
+      spriteID: 0f82c77dda508864fbbfd6f22dd9383a
+      internalID: -523032612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female2_15
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 193a51c44f46bce47b41da4482b1f12d
+      internalID: 934356370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female2_16
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 2
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fd8ee1d177fe6044adb3b853b8958f4
+      internalID: 917645613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female2_17
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 2
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19cb7c03845c2ea41be0981b2e758c3c
+      internalID: -1619126846
       vertices: []
       indices: 
       edges: []
@@ -658,31 +511,24 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Sprite_Object_Furniture_0: -1127179078
-      Sprite_Object_Furniture_1: -1518369060
-      Sprite_Object_Furniture_10: -427664691
-      Sprite_Object_Furniture_11: -2143585693
-      Sprite_Object_Furniture_12: 211596787
-      Sprite_Object_Furniture_13: -2117787997
-      Sprite_Object_Furniture_14: -865495844
-      Sprite_Object_Furniture_15: -1022479295
-      Sprite_Object_Furniture_16: 2105013001
-      Sprite_Object_Furniture_17: -2112367375
-      Sprite_Object_Furniture_18: 1643443372
-      Sprite_Object_Furniture_19: 1994132844
-      Sprite_Object_Furniture_2: -1558641632
-      Sprite_Object_Furniture_20: -815891385
-      Sprite_Object_Furniture_21: 636319545
-      Sprite_Object_Furniture_22: 2068902483
-      Sprite_Object_Furniture_23: 1508244339
-      Sprite_Object_Furniture_24: 815845739
-      Sprite_Object_Furniture_3: 153321586
-      Sprite_Object_Furniture_4: -912027802
-      Sprite_Object_Furniture_5: -881413582
-      Sprite_Object_Furniture_6: -1696253631
-      Sprite_Object_Furniture_7: 345259006
-      Sprite_Object_Furniture_8: -2083841276
-      Sprite_Object_Furniture_9: -62482731
+      female2_0: -1988645867
+      female2_1: -234270696
+      female2_10: -1835245699
+      female2_11: -360132291
+      female2_12: 1300190294
+      female2_13: -1095805654
+      female2_14: -523032612
+      female2_15: 934356370
+      female2_16: 917645613
+      female2_17: -1619126846
+      female2_2: -83069338
+      female2_3: -1285221659
+      female2_4: 1493202723
+      female2_5: 565762451
+      female2_6: -924377346
+      female2_7: 1357044391
+      female2_8: -1648386747
+      female2_9: -151755064
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
