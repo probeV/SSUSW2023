@@ -29,8 +29,8 @@ public class PlayerAction : MonoBehaviour
         bool vUp = Input.GetButtonUp("Vertical");
 
         //Check Horizontal Move 
-        if (hDown) isHorizonMove= true;
-        else if(vDown) isHorizonMove= false;
+        if (hDown || vUp) isHorizonMove= true;
+        else if(vDown || hUp) isHorizonMove= false;
 
 
     }
@@ -39,6 +39,6 @@ public class PlayerAction : MonoBehaviour
     {
         //Move
         Vector2 moveVec = isHorizonMove ? new Vector2(h, 0) : new Vector2(0, v);
-        rigid.velocity = new Vector2(h, v) * speed;
+        rigid.velocity = moveVec * speed;
     }
 }
