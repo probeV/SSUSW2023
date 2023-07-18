@@ -1,0 +1,5662 @@
+fileFormatVersion: 2
+guid: dcc5890be77dd884a86ff58b49a3600d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 18_Jail_16x16_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 645
+        width: 192
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6088b4ab119a24f4bb9a3b137e376bf2
+      internalID: 1534448175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_1
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 707
+        width: 5
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60b40886b6cf77640ad0006b9294023f
+      internalID: -418848156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_2
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 707
+        width: 5
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 292f17005cac4a54c95f96c5ae122330
+      internalID: 445780633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_3
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 694
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82d517cd6020b64439c5a048c9795619
+      internalID: 209902845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_4
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 694
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcd4b45870b7a82488c905279bfa4ef2
+      internalID: -1323524929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_5
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 695
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3668d6775a15544281690fb20c5e2b0
+      internalID: -1064975076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_6
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 695
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a948c16c86758146b37ba8a5be341fd
+      internalID: -1113529812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 564
+        width: 48
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aaf03b0acb1a36499131899fe1c7e13
+      internalID: -1997445807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_8
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 631
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af10264b24e023b4f8c5c9c5c4de1c7c
+      internalID: 270105471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_9
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 624
+        width: 5
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f63785d04eebeb4f8cc02ece5e14db3
+      internalID: -2055992255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_10
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 645
+        width: 8
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dda23e2f8527ef24c82fbd26a15cb13d
+      internalID: -564193417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_11
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 661
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7fb9a9c529c77248ac16b9ae1d28ddd
+      internalID: -899509536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_12
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 659
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f640dae53172396499aa4174227e08c1
+      internalID: 836701047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_13
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 659
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df08be82b6e0faa46a4049711034e786
+      internalID: -1850108867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_14
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 585
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48d524910f3d63847b13c76dcb674701
+      internalID: -1591125285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_15
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 631
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 207b802e18dea3947912c778b1d8fab1
+      internalID: 1689049395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_16
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 627
+        width: 9
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0e73e35f84459d4e98ccd2b8bd7b1fe
+      internalID: 581397128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_17
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 584
+        width: 48
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23d150ebc73d730428fd7381ae2ec258
+      internalID: -482492122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_18
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 633
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c3889378d79ded4abd7ea0569648181
+      internalID: -1193992539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_19
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 633
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb2f7243843fa1e46a9836f14b6bfdec
+      internalID: 295275965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_20
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 633
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6109c6c507a5b974f9be84d581bf065c
+      internalID: -1230444051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_21
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 619
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c52c361630ddd64aaf21f64f98ccf17
+      internalID: 1956459201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_22
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 610
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41f3940246f29e843bb0cabac6feaf81
+      internalID: 908771803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_23
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 609
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 862121b0227af4d44af2d902ab846a68
+      internalID: 326139572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_24
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 609
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccf5ca974f21056438033c2320de154f
+      internalID: -980183283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_25
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 611
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfa166277cabe1c47bf4590ad7eae2d3
+      internalID: -2006169088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_26
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 608
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e87e6e7023ab80a4bb83e4db8cf415f4
+      internalID: -1168562421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_27
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 609
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ad1570212114a24bba9c26b590345f3
+      internalID: 1459746115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_28
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 601
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3601cd00daac7447a41c869015454b1
+      internalID: 1084716181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_29
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 608
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 500872762fdd41342991913e43e3009a
+      internalID: -444442507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_30
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 608
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0676b178b392afe4fb73b2f5b0c8e035
+      internalID: 1189602219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_31
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 603
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ce1a1a9e0fe74640a98e9dca350236d
+      internalID: -48838879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_32
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 599
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a459db890bba444da66dfe46344e8dd
+      internalID: -486907885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_33
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 597
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5a787b6b26932c4abb4ae5accf68b8c
+      internalID: 180817567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_34
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 601
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 884b15d1810dd3e4987309255dd6362d
+      internalID: -254639568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_35
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 592
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dd3e95a1a710f44bbfa44f311788aed
+      internalID: -1030264011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_36
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 592
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 943a5a8ceaa55254cbf06067e5469436
+      internalID: -1094130343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_37
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 581
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 616bf33c62f52824996b06f9b57543d4
+      internalID: 543015062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_38
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 550
+        width: 16
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 450ffe10cf5120f40989afd67d6fa36e
+      internalID: 953172223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_39
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 576
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6412f85ea3e5af4f8f381d92d224ac0
+      internalID: -1774843512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_40
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 569
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a004884909b691744ac850e233ff593d
+      internalID: -617086779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_41
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 546
+        width: 15
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1fd3c218a39e6a4caa5cee7d52ab496
+      internalID: -1943098917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_42
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 546
+        width: 15
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2060d30757ac8a145b1ab6633711b918
+      internalID: -2032428051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_43
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 576
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 534856185310a7a4b9034922aad046ed
+      internalID: -143449655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_44
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 561
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bd86992246bdcc4d8af70de5309d9f7
+      internalID: 1574634669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_45
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 553
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4b32803369aeb34cb8a8f77b5136337
+      internalID: 558374363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_46
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 560
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c9bfddd817c9cc4e8b45a47ab881a61
+      internalID: 393477353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_47
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 562
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c19c1892d6f717498266c54c1522dd6
+      internalID: -634238467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_48
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 569
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c6cc60a65bf2474dbd22235938eaaa3
+      internalID: -330412702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_49
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 544
+        width: 12
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e566a2ac296659747a637c4333415486
+      internalID: -1540667084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_50
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 553
+        width: 7
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beea060be49b9904f8973e8cfe618f2d
+      internalID: -2096489259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_51
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 560
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c8a93474356eae4cae964c517ea2c3f
+      internalID: 1996930573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 544
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcce6b1842ea0bf44907bdca2d164c81
+      internalID: -853764085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_53
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 544
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dcb67e5cf305ca44b02a367f61b0492
+      internalID: -737161162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_54
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 531
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d02c228434c6844084ffcbb4be4a0d5
+      internalID: 72330477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_55
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 541
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c20805fd2f75614c8afbb378d5659f4
+      internalID: 1785014908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_56
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 544
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 831dbbe146c0adf469ff0e39a9d9b79d
+      internalID: 1772347592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_57
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 546
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6308ab1e95dd6ac4fac823bcee1a3861
+      internalID: -348089238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_58
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 544
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d259870d4799224080b876d3d25e24c
+      internalID: 1150983749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_59
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 528
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 178aee0e0a5b85941b1484d6a9c3bc09
+      internalID: -1247170894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_60
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 528
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58a22562b31509e418e44605ac7cf8d7
+      internalID: 1962815069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_61
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 499
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f671ad9d66ccb54c9ba36242da8c10b
+      internalID: 297103293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_62
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 499
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 393d01c00983e1148a8e3d976f047ec0
+      internalID: -1966744959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_63
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 501
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9dc2ae7703729445af5c9610ea3a73f
+      internalID: -584521337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_64
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 500
+        width: 37
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c025844cd019aea45a2782c76eaf8f0b
+      internalID: -1876220930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_65
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 528
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 407cc2a66f5848446a6baf3faab164d5
+      internalID: 932439526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_66
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 528
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5576eb6221002e54f9171baefca81e1e
+      internalID: 2072996695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_67
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 516
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48015224f4f2c914db33851c57723a87
+      internalID: 291605487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_68
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 516
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dcd044517dd50446bc91b920bbb464b
+      internalID: -128185425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_69
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 488
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efcb88970d102964bb76a353fcdc8166
+      internalID: -651511282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_70
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 500
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b8555cc8a0c66e48be095c90f23b298
+      internalID: 609719326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_71
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 501
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f365b074554e63944bf24f7a3650e78f
+      internalID: 627630385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_72
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 501
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55faa20499daa644c94a07a2cd31592a
+      internalID: 2142941560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_73
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 496
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a1bc62d4ea2f3c4d8b251d0298e47b1
+      internalID: -1963235509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_74
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 485
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d932269690a0b164883f5b2cc80ad46e
+      internalID: 1009044564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_75
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 485
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 762616f4808b2d34da1b41fa00f57ab6
+      internalID: 1504669682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_76
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 480
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4c81778942d3ca428a37e590c6a59bb
+      internalID: -1580233094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_77
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 475
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba542da3833d7ed4c85af40a8bcbf252
+      internalID: 725735875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_78
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 477
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6b3c650bd949124fb4a354d21b4fc16
+      internalID: 665242061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_79
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 475
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ee2fab099423a6479955865432450f2
+      internalID: -1383197634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_80
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 477
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a006935b753618444bc9d118979c7cf0
+      internalID: -1578116008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_81
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 477
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbe4deeb0f6704a4ca020c8c826afed0
+      internalID: -1873527065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_82
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 477
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baeb9192573215f488cb25503d47747e
+      internalID: -99781759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_83
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 477
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d366b6bee64a9d94dad4909f993c2060
+      internalID: 1144946935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_84
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 468
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa9b530fa7646104e9313a9085a9d3ce
+      internalID: 1459506759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_85
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 437
+        width: 46
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c97c861db47d41d43a823ed75da36539
+      internalID: -2049423443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_86
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 448
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c178db1d29e39549b7d730d2014825f
+      internalID: 412930905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_87
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 433
+        width: 13
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22b96330b9f336944b4f3fb2a6086a70
+      internalID: -2138289105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_88
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 436
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39f6ee2d453276e4aaf09da5b2b317eb
+      internalID: 639363106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_89
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 436
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eda9691fd4c0a942bd8cc4568f4460d
+      internalID: 794541160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_90
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 433
+        width: 13
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ec2820f9f0b04841865909424273e3e
+      internalID: 696923662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_91
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 443
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 384769215b47d1b48929e3d7144a7972
+      internalID: 2028227083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_92
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 443
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8b7617787ccda7489dc5e3b7d3f4edb
+      internalID: 811365185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_93
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 445
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ac95dfbc1cdedf42a4ad1680929a9a3
+      internalID: 259587148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_94
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 443
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44532a1425baa6944b94bc7ad76a056d
+      internalID: -57649169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_95
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 443
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be2712f1518492341a8eeeda4ca5e5ab
+      internalID: -810948557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_96
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 439
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d64e32225440f294589ec7ab97f7545f
+      internalID: 10804860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_97
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 439
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a756f551fbfc3e4e9d1c0dcb626789e
+      internalID: 392016374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_98
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 439
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90fd638b71481c1448744488a91806bd
+      internalID: -82232452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_99
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 441
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6414e8514c3b3f943bb75250d64591d4
+      internalID: -7362992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_100
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 439
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f80cc39fa1dc3f49929f9f28683b448
+      internalID: 401714049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_101
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 422
+        width: 31
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b70af280cd16d34bb9a054043bb49a7
+      internalID: -1747955420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_102
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 422
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 142b7ceaeb398cc458525d736437c1e4
+      internalID: 1043982572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_103
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 411
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33c5071130c45c949a9a2ba5b587d508
+      internalID: 1517128466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_104
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 411
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ef2cd497cd6acb4095b29292cdd33f1
+      internalID: -1165131335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_105
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 413
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96e14dc00f8047946b0b1727c612d6c4
+      internalID: -1668283641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_106
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 411
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6386ecf87fc2c8540a8d655f9fd91e21
+      internalID: 1540024040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_107
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 411
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39e359d168a025e4cbf5e24a1bfd888a
+      internalID: 907371196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_108
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 407
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a68c248407716c48b67d1070cdb33f4
+      internalID: -2139953260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_109
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 407
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69f2dd3ffe8447549987afa9ae87fa27
+      internalID: 780840126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_110
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 407
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 467ddd307187a2f41a146912b914b90a
+      internalID: 1930426837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_111
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 385
+        width: 13
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b2ad50a7f5453444b57749cf451b49d
+      internalID: -1926459028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_112
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 388
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1eaa49661070214eadeeea6edd782e2
+      internalID: -586555086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_113
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 388
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a13cc449762450446925ff3276f017a8
+      internalID: -2038900580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_114
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 385
+        width: 13
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9e368474f3378c49ba95132bb28280e
+      internalID: 1749599339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_115
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 407
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b087f5d6af2eb2d4fba9ca0b8ecb05d0
+      internalID: 272741406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_116
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 374
+        width: 47
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fc0ee79402a94d43867297f973117a5
+      internalID: -707636813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_117
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 384
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a62b67452879ba418f8ecef779d0be6
+      internalID: -948331937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_118
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 355
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5a9b6948a0f24248b1736bb1269fc88
+      internalID: -1308779910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_119
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 373
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdddf3238e600cf408f1dd0fdf82bb17
+      internalID: -941903079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_120
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 374
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 061566ab110fa54469d6007aa159bab5
+      internalID: -233164619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_121
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 372
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0beea2f950d17a469221fa92d515107
+      internalID: 583123939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_122
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 378
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 968249acf3f5b6548a13dbea9f949dad
+      internalID: 1985912123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_123
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 378
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd41e9001cc45824d9a9d33dc13bfea7
+      internalID: 935631709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_124
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 372
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f68d896eeb9799449ab09883453bbe2
+      internalID: 1198400772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_125
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 372
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1cd2e58d1db00a43be6c8ae4125e26a
+      internalID: 2063869633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_126
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 363
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1ae71baad20c7646af63ad5950e03f0
+      internalID: -2098439461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_127
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 358
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aaeaf485686134489f29a05e4614231
+      internalID: 350358035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_128
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 359
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48c488e9893fbc84ea6ab0ccff1c2352
+      internalID: 1970381461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_129
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 341
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8cd5bea883f62c41a0fdbb684ba3b54
+      internalID: 462629007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_130
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 342
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65e49d6a71ba32f45ba5d71072ac82c1
+      internalID: 1169305511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_131
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 340
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8859137c4cb054a4eadda0fe50837f45
+      internalID: 882952047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_132
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 346
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d1be27a6e84ea840aa6b424592f23ea
+      internalID: 771350254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_133
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 346
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce9989ec469ed3f49939ea8c3d62450d
+      internalID: 1971347198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_134
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 328
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26ebb566352f6e94181c213e0ff12c14
+      internalID: -500886924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_135
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 353
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adc1b767bccd04d4e8a8216e78212619
+      internalID: 1650049928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_136
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 344
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2728f8c48a602748a6e446125dbbd44
+      internalID: -1503255204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_137
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 324
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c1415980140470479759b604fd09334
+      internalID: -762708426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_138
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 304
+        width: 4
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fad540231ee90848aaecaa07320950c
+      internalID: -151311513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_139
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 320
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b113d6272c85bc04abc648f1a5827809
+      internalID: 2138334653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_140
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 328
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 926eed1c7d759c847b8f6ad9ef067797
+      internalID: -1279824009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_141
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 328
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 943c71bed535f964d80355e4f30b44a0
+      internalID: 1968996798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_142
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 309
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e7730dece131764e957dceb35504e9f
+      internalID: 1029215906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_143
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 310
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc5d4db60f51686468ccbfcf25f94e06
+      internalID: -234057568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_144
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 314
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd66e6efb5456be4e89feaf8a1e4d28a
+      internalID: -1931716645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_145
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 314
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e94e867b7ecb1b4cabc5f781870ee0a
+      internalID: -162732163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_146
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 313
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed365593568970b45b86b4ff65b8bf2f
+      internalID: 1929205532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_147
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 313
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c75f5b103743eca4ba92bb367643484a
+      internalID: 166297695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_148
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 310
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a8734108e4b82240893c8fae27c76f0
+      internalID: 1645998505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_149
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 308
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc67b0ad9a30bad48ac5a937fd286498
+      internalID: -292511721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_150
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 274
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cae22780da2d2224386ea002278ed7d7
+      internalID: -501622220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_151
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 274
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 090bac279ba37344da01ae590c917758
+      internalID: 1900305240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_152
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 274
+        width: 28
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17cd28b9cf7c1954c83ebc7fca9e70a3
+      internalID: -2000820511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_153
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 274
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1181a986dd302e94e9151d2c5aa635bb
+      internalID: -1916743133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_154
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 283
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8887910199898f4fb28da6b649c994a
+      internalID: 782661426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_155
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 274
+        width: 48
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c948ed6ac0ce3674d873fa5494071c30
+      internalID: -915662144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_156
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208
+        width: 48
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f04a4f0affe51e449992e0027d81ba4
+      internalID: -1226626997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_157
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 218
+        width: 140
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fffc0280ec13d141986670c0e529b46
+      internalID: -275996686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_158
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 218
+        width: 12
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b9761c7ba5b52f40810909b306a531d
+      internalID: -421394712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_159
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 218
+        width: 12
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 461b2a1fdcf49474c806a5a978b37b0e
+      internalID: -2087970958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_160
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 218
+        width: 12
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5abd456cde4b3b4dbe4c2f6c9b93aec
+      internalID: -1004403019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_161
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 218
+        width: 12
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4850c3c4ce5003846a186a16dd19fea9
+      internalID: -1645509477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_162
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 218
+        width: 12
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 923703b4421c4024bb5d1f446c702c67
+      internalID: 556874952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_163
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 218
+        width: 12
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1b2c5f427933c743a95adc7bcbf660a
+      internalID: 1088975212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_164
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 218
+        width: 12
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3426cb5f43efce54194c6a0268e452a8
+      internalID: 1345440232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_165
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 165
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0f3b00f6af943b4baf1a323f6520fb8
+      internalID: 838747687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_166
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 176
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8052ceb2272fcad4aae7f1197961bf5e
+      internalID: -1174661361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_167
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 167
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26a955a7450108d4e8219d8eef7d4584
+      internalID: -1274183802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_168
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 170
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7be2f4e700766c4db8f480a4a934dcd
+      internalID: -103607314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_169
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 170
+        width: 64
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3534ac85218f0354fa61056de21fa3bc
+      internalID: -467083816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_170
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 160
+        width: 8
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14f55fbb4a8f84843bd0404eb70e164c
+      internalID: -703314347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_171
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 160
+        width: 8
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b58ab2738330db479fee0cff939f2eb
+      internalID: -1509457057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_172
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 176
+        width: 12
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7db19a7b3080c4e408f8d625ac2fca6c
+      internalID: -305849630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_173
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 176
+        width: 12
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04dab4d2c8b11574abfd6490cf30f599
+      internalID: 1149919058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_174
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 176
+        width: 12
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c062b86ac9d7fe543862aedacc4693b6
+      internalID: 160258795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_175
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 176
+        width: 12
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf7fc33d086cf9f409cb5add90d113fc
+      internalID: 390446293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_176
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 176
+        width: 12
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7133ee0b59745848a2f64acc26fbea0
+      internalID: -1517685003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_177
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 176
+        width: 12
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a81900899c3ff474f833710671d4fc52
+      internalID: 385209687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_178
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 133
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b84b9ac4a781c3f47a1fca3ddede54d7
+      internalID: -932302413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_179
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 144
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c83eb4e3f6160844f8c73219ff633b44
+      internalID: 967082759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_180
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 135
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64166805187e2bd489db2d69af963e68
+      internalID: -1826571675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_181
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 138
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da7a5502079afc14f938d1f9e8d9acbd
+      internalID: 1210863932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_182
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 138
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf82b4a6a72c5184bacae490020c08ab
+      internalID: -647251663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_183
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 128
+        width: 8
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a117765099e54a0468eddfc93e659df0
+      internalID: 1985641174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_184
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 128
+        width: 8
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebec37e81f174804c98c5bae312cf0a3
+      internalID: 1062244760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_185
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 145
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e7c926f3b675554399f00dffa8ad714
+      internalID: -1831313098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_186
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 145
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c416283dbbe9e284ba53ec99267074d8
+      internalID: -1610131022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_187
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 145
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daf4a2715048f8b4a9ef1e81204f2f1e
+      internalID: 1056795276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_188
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 117
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6f6cc7a1c4382c43b224cf955750c97
+      internalID: 876784173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_189
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 117
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e0f7bbb91e244143a346bc22f6f3495
+      internalID: -2080054854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_190
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 117
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4833664bba3730648bbdac12a0f1edda
+      internalID: 1318008613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_191
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 117
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bab1694ba76dcf94f9ca7dde17e65900
+      internalID: 2057983879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_192
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 117
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a852ea23858fa9244bfbf45447b602b1
+      internalID: -708289382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_193
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 117
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22c25cc755a8a5342a48bf2fea71d8aa
+      internalID: -160287197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_194
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 89
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 442a5e8ae30b56d46818f2e62bf0c2e3
+      internalID: -2147041594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_195
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 89
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d9cb6ecc9375354eb473e8bdc4ef8a9
+      internalID: -371105958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_196
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 113
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3cbb995c05e9744bb0e3d120ce47865
+      internalID: -509221060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_197
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 113
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f56990b54f8dad34cbb75f3ac8c1a35f
+      internalID: 956937879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_198
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 101
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d44fa4b27dec413419d028c2e835bf40
+      internalID: -1867213627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_199
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 101
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eed1a5cabd2bddf42ada65ac122f0857
+      internalID: -1451237778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_200
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 101
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d01f96665699aa4192dcc6bbd8b3374
+      internalID: -1721866114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_201
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 101
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9978cc5ee595eee4d9b06a7840abe376
+      internalID: 1075426654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_202
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 101
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a133844e1bba8b4cb7195130dc9d8a3
+      internalID: 425618252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_203
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 101
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a6ce04c209345f4f95b5bcd66aead73
+      internalID: -1927538079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_204
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 16
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ec82fc2572e0a940bae348510beaaa0
+      internalID: 2039084308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_205
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 97
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84b393cbd3134c54eacb132cb01b72d7
+      internalID: 1528481592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_206
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 96
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcae824e47fc553459999e0f9d35f746
+      internalID: -244276129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_207
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 85
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80c27b7694588074583859a1fc8c3fdb
+      internalID: -706715833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_208
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 85
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f3fcdaeb248fd84ba5a1d9e89320979
+      internalID: -1043193687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_209
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 85
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7e2ae55a23267442ada844632c3c5dd
+      internalID: 132486324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_210
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 82
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ac77dbda92b4604c8726d29794aabe8
+      internalID: 441587493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_211
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 82
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c558431ec7a4d142b279c24a2991b7f
+      internalID: 1198131153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_212
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 82
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2150371436d65fe4e9306eb995f544f4
+      internalID: -1517237962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_213
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 81
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8a1588f473f0a34ca4a05549c63ccdf
+      internalID: -2095822153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_214
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 80
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0049a695f72f4e545b5cbe2c770cfdec
+      internalID: 801343481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_215
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 66
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a860e6cb15bd01a4bb61b6c397fe89ee
+      internalID: -89400091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_216
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 66
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d1a36cc6570bc744a515ad62f71e30b
+      internalID: 2064321104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_217
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 66
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 366da439eed609542839e7bd8ddbe52e
+      internalID: 787414067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_218
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 66
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 670ec095524023444ac047d7d444bc5f
+      internalID: 254811186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_219
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 66
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c49a1de6f65126469d39e61e608ad64
+      internalID: 1241466519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_220
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 66
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78b4037c772d58348ad0749e27ae305a
+      internalID: 127919862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_221
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 69
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e24baba61f001364eaae976a146e508f
+      internalID: 1367377040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_222
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 69
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae6b76f8359fa3c40bf55488b8003c95
+      internalID: -1309971102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_223
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 69
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70ece0f1893fddf4cb64de1a015a462c
+      internalID: -1291288561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_224
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 69
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33073bbaf75439c47969b0019fbf05be
+      internalID: 1652187434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_225
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 69
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aabab54c28c80c64b89125c93fd91fea
+      internalID: -1184224932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_226
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 69
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42b61ae67e77c20479aa494d5a4c3b84
+      internalID: 666013733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_227
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 64
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59ad323767550eb4dbfc83f8cdaa25b3
+      internalID: -425777262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_228
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 64
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28bc88e415a0aca49a209cb0337d200e
+      internalID: -2084709603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_229
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 50
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 797cd283178e64c49af172e59cc5ebc5
+      internalID: 91993782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_230
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 50
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57843500eeff3c04f90f1b53cf5356e1
+      internalID: 406054752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_231
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 50
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d6f5a2c97c44f547836e091dcd2174a
+      internalID: 1050908430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_232
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 50
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 458f0cd5aad611547b274cd00fcd5b11
+      internalID: 2025059165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_233
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 50
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11b13fbcdd3de02448959d93e2f7c0eb
+      internalID: -1603994598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_234
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 50
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64c5d9f627a59f64885edeac4ca6cae5
+      internalID: -502185808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_235
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 53
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6672a123c73ebf44b88d17eeac60deac
+      internalID: 734152807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_236
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 53
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdac292374a0eec46a82d5889e2dea8e
+      internalID: -2107468753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_237
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 53
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00f3feb385727cf44a7e0a1441fcda81
+      internalID: 2103118648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_238
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 53
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a050231d29a501e46aede992e0a44faa
+      internalID: -553787152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_239
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 53
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f974bf87989e3144aa2942d2cd8af0b
+      internalID: -1495804054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_240
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 53
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 791022308607631429ff73cef8055559
+      internalID: 1514315518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_241
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 49
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7232588ff938cc14e8fcc152075686be
+      internalID: 1863424802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_242
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 48
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3f23110dead1164783b8e611be7933b
+      internalID: -573356420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_243
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7
+        width: 80
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc6f40327e1201d4a8c5a22f542c48e0
+      internalID: -1855577292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_244
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 7
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4a0d5ba5a8889b4c8d72bf306866fb8
+      internalID: -1667982549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_245
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 7
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79ee8109522a33b4c92d67f6ad1b20a0
+      internalID: 380832760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_246
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 7
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 524c82d1b04313d4aa0c63dbed2a85af
+      internalID: -428742154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_247
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 33
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10ccd7c5023fe4e4a9994226e3a2613a
+      internalID: 816000009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_248
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 33
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3608da3641d900489a6fb2bf974b0d0
+      internalID: -486036528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_249
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 17
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78c978cc1477eee40a62de14f1c1ee04
+      internalID: 1139691349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_16x16_250
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 17
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0808705c915affd429d3812e0ac3b227
+      internalID: -1486012725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      18_Jail_16x16_0: 1534448175
+      18_Jail_16x16_1: -418848156
+      18_Jail_16x16_10: -564193417
+      18_Jail_16x16_100: 401714049
+      18_Jail_16x16_101: -1747955420
+      18_Jail_16x16_102: 1043982572
+      18_Jail_16x16_103: 1517128466
+      18_Jail_16x16_104: -1165131335
+      18_Jail_16x16_105: -1668283641
+      18_Jail_16x16_106: 1540024040
+      18_Jail_16x16_107: 907371196
+      18_Jail_16x16_108: -2139953260
+      18_Jail_16x16_109: 780840126
+      18_Jail_16x16_11: -899509536
+      18_Jail_16x16_110: 1930426837
+      18_Jail_16x16_111: -1926459028
+      18_Jail_16x16_112: -586555086
+      18_Jail_16x16_113: -2038900580
+      18_Jail_16x16_114: 1749599339
+      18_Jail_16x16_115: 272741406
+      18_Jail_16x16_116: -707636813
+      18_Jail_16x16_117: -948331937
+      18_Jail_16x16_118: -1308779910
+      18_Jail_16x16_119: -941903079
+      18_Jail_16x16_12: 836701047
+      18_Jail_16x16_120: -233164619
+      18_Jail_16x16_121: 583123939
+      18_Jail_16x16_122: 1985912123
+      18_Jail_16x16_123: 935631709
+      18_Jail_16x16_124: 1198400772
+      18_Jail_16x16_125: 2063869633
+      18_Jail_16x16_126: -2098439461
+      18_Jail_16x16_127: 350358035
+      18_Jail_16x16_128: 1970381461
+      18_Jail_16x16_129: 462629007
+      18_Jail_16x16_13: -1850108867
+      18_Jail_16x16_130: 1169305511
+      18_Jail_16x16_131: 882952047
+      18_Jail_16x16_132: 771350254
+      18_Jail_16x16_133: 1971347198
+      18_Jail_16x16_134: -500886924
+      18_Jail_16x16_135: 1650049928
+      18_Jail_16x16_136: -1503255204
+      18_Jail_16x16_137: -762708426
+      18_Jail_16x16_138: -151311513
+      18_Jail_16x16_139: 2138334653
+      18_Jail_16x16_14: -1591125285
+      18_Jail_16x16_140: -1279824009
+      18_Jail_16x16_141: 1968996798
+      18_Jail_16x16_142: 1029215906
+      18_Jail_16x16_143: -234057568
+      18_Jail_16x16_144: -1931716645
+      18_Jail_16x16_145: -162732163
+      18_Jail_16x16_146: 1929205532
+      18_Jail_16x16_147: 166297695
+      18_Jail_16x16_148: 1645998505
+      18_Jail_16x16_149: -292511721
+      18_Jail_16x16_15: 1689049395
+      18_Jail_16x16_150: -501622220
+      18_Jail_16x16_151: 1900305240
+      18_Jail_16x16_152: -2000820511
+      18_Jail_16x16_153: -1916743133
+      18_Jail_16x16_154: 782661426
+      18_Jail_16x16_155: -915662144
+      18_Jail_16x16_156: -1226626997
+      18_Jail_16x16_157: -275996686
+      18_Jail_16x16_158: -421394712
+      18_Jail_16x16_159: -2087970958
+      18_Jail_16x16_16: 581397128
+      18_Jail_16x16_160: -1004403019
+      18_Jail_16x16_161: -1645509477
+      18_Jail_16x16_162: 556874952
+      18_Jail_16x16_163: 1088975212
+      18_Jail_16x16_164: 1345440232
+      18_Jail_16x16_165: 838747687
+      18_Jail_16x16_166: -1174661361
+      18_Jail_16x16_167: -1274183802
+      18_Jail_16x16_168: -103607314
+      18_Jail_16x16_169: -467083816
+      18_Jail_16x16_17: -482492122
+      18_Jail_16x16_170: -703314347
+      18_Jail_16x16_171: -1509457057
+      18_Jail_16x16_172: -305849630
+      18_Jail_16x16_173: 1149919058
+      18_Jail_16x16_174: 160258795
+      18_Jail_16x16_175: 390446293
+      18_Jail_16x16_176: -1517685003
+      18_Jail_16x16_177: 385209687
+      18_Jail_16x16_178: -932302413
+      18_Jail_16x16_179: 967082759
+      18_Jail_16x16_18: -1193992539
+      18_Jail_16x16_180: -1826571675
+      18_Jail_16x16_181: 1210863932
+      18_Jail_16x16_182: -647251663
+      18_Jail_16x16_183: 1985641174
+      18_Jail_16x16_184: 1062244760
+      18_Jail_16x16_185: -1831313098
+      18_Jail_16x16_186: -1610131022
+      18_Jail_16x16_187: 1056795276
+      18_Jail_16x16_188: 876784173
+      18_Jail_16x16_189: -2080054854
+      18_Jail_16x16_19: 295275965
+      18_Jail_16x16_190: 1318008613
+      18_Jail_16x16_191: 2057983879
+      18_Jail_16x16_192: -708289382
+      18_Jail_16x16_193: -160287197
+      18_Jail_16x16_194: -2147041594
+      18_Jail_16x16_195: -371105958
+      18_Jail_16x16_196: -509221060
+      18_Jail_16x16_197: 956937879
+      18_Jail_16x16_198: -1867213627
+      18_Jail_16x16_199: -1451237778
+      18_Jail_16x16_2: 445780633
+      18_Jail_16x16_20: -1230444051
+      18_Jail_16x16_200: -1721866114
+      18_Jail_16x16_201: 1075426654
+      18_Jail_16x16_202: 425618252
+      18_Jail_16x16_203: -1927538079
+      18_Jail_16x16_204: 2039084308
+      18_Jail_16x16_205: 1528481592
+      18_Jail_16x16_206: -244276129
+      18_Jail_16x16_207: -706715833
+      18_Jail_16x16_208: -1043193687
+      18_Jail_16x16_209: 132486324
+      18_Jail_16x16_21: 1956459201
+      18_Jail_16x16_210: 441587493
+      18_Jail_16x16_211: 1198131153
+      18_Jail_16x16_212: -1517237962
+      18_Jail_16x16_213: -2095822153
+      18_Jail_16x16_214: 801343481
+      18_Jail_16x16_215: -89400091
+      18_Jail_16x16_216: 2064321104
+      18_Jail_16x16_217: 787414067
+      18_Jail_16x16_218: 254811186
+      18_Jail_16x16_219: 1241466519
+      18_Jail_16x16_22: 908771803
+      18_Jail_16x16_220: 127919862
+      18_Jail_16x16_221: 1367377040
+      18_Jail_16x16_222: -1309971102
+      18_Jail_16x16_223: -1291288561
+      18_Jail_16x16_224: 1652187434
+      18_Jail_16x16_225: -1184224932
+      18_Jail_16x16_226: 666013733
+      18_Jail_16x16_227: -425777262
+      18_Jail_16x16_228: -2084709603
+      18_Jail_16x16_229: 91993782
+      18_Jail_16x16_23: 326139572
+      18_Jail_16x16_230: 406054752
+      18_Jail_16x16_231: 1050908430
+      18_Jail_16x16_232: 2025059165
+      18_Jail_16x16_233: -1603994598
+      18_Jail_16x16_234: -502185808
+      18_Jail_16x16_235: 734152807
+      18_Jail_16x16_236: -2107468753
+      18_Jail_16x16_237: 2103118648
+      18_Jail_16x16_238: -553787152
+      18_Jail_16x16_239: -1495804054
+      18_Jail_16x16_24: -980183283
+      18_Jail_16x16_240: 1514315518
+      18_Jail_16x16_241: 1863424802
+      18_Jail_16x16_242: -573356420
+      18_Jail_16x16_243: -1855577292
+      18_Jail_16x16_244: -1667982549
+      18_Jail_16x16_245: 380832760
+      18_Jail_16x16_246: -428742154
+      18_Jail_16x16_247: 816000009
+      18_Jail_16x16_248: -486036528
+      18_Jail_16x16_249: 1139691349
+      18_Jail_16x16_25: -2006169088
+      18_Jail_16x16_250: -1486012725
+      18_Jail_16x16_26: -1168562421
+      18_Jail_16x16_27: 1459746115
+      18_Jail_16x16_28: 1084716181
+      18_Jail_16x16_29: -444442507
+      18_Jail_16x16_3: 209902845
+      18_Jail_16x16_30: 1189602219
+      18_Jail_16x16_31: -48838879
+      18_Jail_16x16_32: -486907885
+      18_Jail_16x16_33: 180817567
+      18_Jail_16x16_34: -254639568
+      18_Jail_16x16_35: -1030264011
+      18_Jail_16x16_36: -1094130343
+      18_Jail_16x16_37: 543015062
+      18_Jail_16x16_38: 953172223
+      18_Jail_16x16_39: -1774843512
+      18_Jail_16x16_4: -1323524929
+      18_Jail_16x16_40: -617086779
+      18_Jail_16x16_41: -1943098917
+      18_Jail_16x16_42: -2032428051
+      18_Jail_16x16_43: -143449655
+      18_Jail_16x16_44: 1574634669
+      18_Jail_16x16_45: 558374363
+      18_Jail_16x16_46: 393477353
+      18_Jail_16x16_47: -634238467
+      18_Jail_16x16_48: -330412702
+      18_Jail_16x16_49: -1540667084
+      18_Jail_16x16_5: -1064975076
+      18_Jail_16x16_50: -2096489259
+      18_Jail_16x16_51: 1996930573
+      18_Jail_16x16_52: -853764085
+      18_Jail_16x16_53: -737161162
+      18_Jail_16x16_54: 72330477
+      18_Jail_16x16_55: 1785014908
+      18_Jail_16x16_56: 1772347592
+      18_Jail_16x16_57: -348089238
+      18_Jail_16x16_58: 1150983749
+      18_Jail_16x16_59: -1247170894
+      18_Jail_16x16_6: -1113529812
+      18_Jail_16x16_60: 1962815069
+      18_Jail_16x16_61: 297103293
+      18_Jail_16x16_62: -1966744959
+      18_Jail_16x16_63: -584521337
+      18_Jail_16x16_64: -1876220930
+      18_Jail_16x16_65: 932439526
+      18_Jail_16x16_66: 2072996695
+      18_Jail_16x16_67: 291605487
+      18_Jail_16x16_68: -128185425
+      18_Jail_16x16_69: -651511282
+      18_Jail_16x16_7: -1997445807
+      18_Jail_16x16_70: 609719326
+      18_Jail_16x16_71: 627630385
+      18_Jail_16x16_72: 2142941560
+      18_Jail_16x16_73: -1963235509
+      18_Jail_16x16_74: 1009044564
+      18_Jail_16x16_75: 1504669682
+      18_Jail_16x16_76: -1580233094
+      18_Jail_16x16_77: 725735875
+      18_Jail_16x16_78: 665242061
+      18_Jail_16x16_79: -1383197634
+      18_Jail_16x16_8: 270105471
+      18_Jail_16x16_80: -1578116008
+      18_Jail_16x16_81: -1873527065
+      18_Jail_16x16_82: -99781759
+      18_Jail_16x16_83: 1144946935
+      18_Jail_16x16_84: 1459506759
+      18_Jail_16x16_85: -2049423443
+      18_Jail_16x16_86: 412930905
+      18_Jail_16x16_87: -2138289105
+      18_Jail_16x16_88: 639363106
+      18_Jail_16x16_89: 794541160
+      18_Jail_16x16_9: -2055992255
+      18_Jail_16x16_90: 696923662
+      18_Jail_16x16_91: 2028227083
+      18_Jail_16x16_92: 811365185
+      18_Jail_16x16_93: 259587148
+      18_Jail_16x16_94: -57649169
+      18_Jail_16x16_95: -810948557
+      18_Jail_16x16_96: 10804860
+      18_Jail_16x16_97: 392016374
+      18_Jail_16x16_98: -82232452
+      18_Jail_16x16_99: -7362992
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
