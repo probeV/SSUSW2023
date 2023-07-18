@@ -14423,6 +14423,19 @@ TextureImporter:
         y: 464
         width: 16
         height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -14588,6 +14601,7 @@ TextureImporter:
       1_Generic_16x16_67: -341711573
       1_Generic_16x16_68: -1170594569
       1_Generic_16x16_69: -1683692651
+      1_Generic_16x16_697: 0
       1_Generic_16x16_7: -1100327531
       1_Generic_16x16_70: -1370234636
       1_Generic_16x16_71: 221869726
