@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
 
-public class ButtonHandler : MonoBehaviour
+public class Button_Handler : MonoBehaviour
 {
-    public PanelHandler popupWindow;
+    public Panel_Handler popupWindow;
 
     public void OnButtonClick()
     {
