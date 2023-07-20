@@ -7,15 +7,19 @@ public class PlayerAction : MonoBehaviour
 {
     public float speed;
 
+    RaycastHit2D raycastDown, raycastUp, raycastLeft, raycastRight;
     Rigidbody2D rigid;
     Animator anim;
+    AudioListener audioListener;
 
     Vector2 moveVec;
 
     Vector2 previousPlayerPosition;
 
-    float h;
-    float v;
+    float rayDistance = 0.6f;
+
+    float hPlayerMoveDirection;
+    float vPlayerMoveDirection;
     bool isMove = true;
 
     int specialAnimationCount = 0;
@@ -24,10 +28,13 @@ public class PlayerAction : MonoBehaviour
     {
         rigid = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+
     }
 
     void Update()
     {
+        PlayerRaycast();
+
         //Player Move Input
         //MoveInput();
         MoveInput_Test();
@@ -44,15 +51,15 @@ public class PlayerAction : MonoBehaviour
     void PlayerAnimation()
     {
         //Move Animation
-        if (anim.GetInteger("hAxisRaw") != h)
+        if (anim.GetInteger("hAxisRaw") != hPlayerMoveDirection)
         {
             anim.SetBool("isChange", true);
-            anim.SetInteger("hAxisRaw", (int)h);
+            anim.SetInteger("hAxisRaw", (int)hPlayerMoveDirection);
         }
-        else if (anim.GetInteger("vAxisRaw") != v)
+        else if (anim.GetInteger("vAxisRaw") != vPlayerMoveDirection)
         {
             anim.SetBool("isChange", true);
-            anim.SetInteger("vAxisRaw", (int)v);
+            anim.SetInteger("vAxisRaw", (int)vPlayerMoveDirection);
         }
         else
         {
@@ -77,29 +84,50 @@ public class PlayerAction : MonoBehaviour
 
     void MoveInput_Test()
     {
-        //Input
+        //Input Limit
         if (isMove)
         {
             rigid.position = new Vector2(Mathf.Round(rigid.position.x), Mathf.Round(rigid.position.y));
             previousPlayerPosition = rigid.position;
 
-            h = Input.GetAxisRaw("Horizontal");
-            v = Input.GetAxisRaw("Vertical");
+            hPlayerMoveDirection = Input.GetAxisRaw("Horizontal");
+            vPlayerMoveDirection = Input.GetAxisRaw("Vertical");
 
-            if (h != 0 || v != 0)
+            //Input D   
+            if (raycastRight.collider == null && hPlayerMoveDirection > 0)
             {
+                //Move
                 isMove = false;
-            }
-
-            if (h > 0)
                 moveVec = new Vector2(1, 0);
-            else if (h < 0)
+            }
+            //Input A
+            else if (raycastLeft.collider == null && hPlayerMoveDirection < 0)
+            {
+                //Move
+                isMove = false;
                 moveVec = new Vector2(-1, 0);
-
-            if (v > 0)
+            }
+            //Input W
+            else if (raycastUp.collider == null && vPlayerMoveDirection > 0) 
+            {
+                //Move
+                isMove = false;
                 moveVec = new Vector2(0, 1);
-            else if (v < 0)
+            }
+            //Intput S
+            else if (raycastDown.collider == null && vPlayerMoveDirection < 0)
+            {
+                //Move
+                isMove = false;
                 moveVec = new Vector2(0, -1);
+            }
+            //Can't Move
+            else
+            {
+                isMove = true;
+                hPlayerMoveDirection = 0;
+                vPlayerMoveDirection = 0;
+            }
         }
     }
 
@@ -135,13 +163,13 @@ public class PlayerAction : MonoBehaviour
                     //Move Right
                     if (checkMove.x > 0)
                     {
-                        h = 1;
+                        hPlayerMoveDirection = 1;
                         moveVec = new Vector2(1, 0);
                     }
                     //Move Left
                     else
                     {
-                        h = -1;
+                        hPlayerMoveDirection = -1;
                         moveVec = new Vector2(-1, 0);
                     }
 
@@ -152,13 +180,13 @@ public class PlayerAction : MonoBehaviour
                     //Move Up
                     if (checkMove.y > 0)
                     {
-                        v = 1;
+                        vPlayerMoveDirection = 1;
                         moveVec = new Vector2(0, 1);
                     }
                     //Move Down
                     else
                     {
-                        v = -1;
+                        vPlayerMoveDirection = -1;
                         moveVec = new Vector2(0, -1);
                     }
                 }
@@ -173,6 +201,42 @@ public class PlayerAction : MonoBehaviour
         {
             isMove = true;
             moveVec = Vector2.zero;
+            //PlayerRaycast();
         }
+    }
+
+    void PlayerRaycast()
+    {
+        Vector2 raycastDownPosition     = new Vector2(rigid.position.x, rigid.position.y - 0.5f - rayDistance);
+        Vector2 raycastUpPosition       = new Vector2(rigid.position.x, rigid.position.y - 0.5f + rayDistance );
+        Vector2 raycastLeftPosition     = new Vector2(rigid.position.x - rayDistance, rigid.position.y - 0.5f);
+        Vector2 raycastRightPosition    = new Vector2(rigid.position.x + rayDistance, rigid.position.y - 0.5f);
+
+        raycastDown     = Physics2D.Raycast(raycastDownPosition, Vector2.down, rayDistance);
+        raycastUp       = Physics2D.Raycast(raycastUpPosition, Vector2.up, rayDistance);
+        raycastLeft     = Physics2D.Raycast(raycastLeftPosition, Vector2.left, rayDistance);
+        raycastRight    = Physics2D.Raycast(raycastRightPosition, Vector2.right, rayDistance);
+
+        Debug.DrawRay(raycastDownPosition, new Vector2(0, -rayDistance), new Color(0, 1, 0));
+        Debug.DrawRay(raycastUpPosition, new Vector2(0, rayDistance), new Color(0, 1, 0));
+        Debug.DrawRay(raycastLeftPosition, new Vector2(-rayDistance, 0), new Color(0, 1, 0));
+        Debug.DrawRay(raycastRightPosition, new Vector2(rayDistance, 0), new Color(0, 1, 0));
+
+        Debug.Log("Down" + raycastDown.collider);
+        Debug.Log("Up" + raycastUp.collider);
+        Debug.Log("Right" + raycastRight.collider);
+        Debug.Log("Left" + raycastLeft.collider);
+    }
+
+    void PlayerInteraction()
+    {
+        moveVec = Vector2.zero;
+    }
+
+
+
+    void PlayerAudio()
+    {
+
     }
 }
