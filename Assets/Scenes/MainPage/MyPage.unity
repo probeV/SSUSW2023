@@ -339,8 +339,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 8.622635}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: 0, y: 160}
+  m_SizeDelta: {x: 45.7758, y: 12.6413}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &599749793
 MonoBehaviour:
@@ -362,10 +362,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: MyPage
+  m_text: "\uD0C8\uCD9C\uC131\uACF5"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 0e2d06aa248584b5f9f649b42a9a5c32, type: 2}
-  m_sharedMaterial: {fileID: 4751120757090120176, guid: 0e2d06aa248584b5f9f649b42a9a5c32, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: f07dcd2db096549939228541d14c21d9, type: 2}
+  m_sharedMaterial: {fileID: 1886557059333524194, guid: f07dcd2db096549939228541d14c21d9, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -389,8 +389,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 10
+  m_fontSizeBase: 10
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
