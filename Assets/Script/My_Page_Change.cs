@@ -7,6 +7,6 @@ public class My_Page_Change : MonoBehaviour
 {
     public void SceneChange()
     {
-        SceneManager.LoadScene("MyPage");
+        SceneManager.LoadSceneAsync("MyPage");
     }
 }
