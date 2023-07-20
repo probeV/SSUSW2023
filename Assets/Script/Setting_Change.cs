@@ -7,6 +7,6 @@ public class Setting_Change : MonoBehaviour
 {
     public void SceneChange()
     {
-        SceneManager.LoadScene("Settings");
+        SceneManager.LoadSceneAsync("Settings");
     }
 }
