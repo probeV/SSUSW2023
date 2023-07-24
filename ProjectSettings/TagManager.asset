@@ -19,10 +19,10 @@ TagManager:
   - 
   - 
   - Player
-  - Tile
   - Wall
+  - FrontWall
   - Object
-  - 
+  - FrontObject
   - 
   - 
   - Borderline
@@ -51,8 +51,14 @@ TagManager:
   - name: Object
     uniqueID: 3350614413
     locked: 0
-  - name: New Layer 4
+  - name: Player
     uniqueID: 3140711087
+    locked: 0
+  - name: FrontObject
+    uniqueID: 1862465425
+    locked: 0
+  - name: FrontWall
+    uniqueID: 1927213303
     locked: 0
   - name: Default
     uniqueID: 0
