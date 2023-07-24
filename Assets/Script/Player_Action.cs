@@ -33,7 +33,7 @@ public class PlayerAction : MonoBehaviour
 
     void Update()
     {
-        PlayerRaycast();
+        //PlayerRaycast();
 
         //Player Move Input
         //MoveInput();
@@ -93,40 +93,34 @@ public class PlayerAction : MonoBehaviour
             hPlayerMoveDirection = Input.GetAxisRaw("Horizontal");
             vPlayerMoveDirection = Input.GetAxisRaw("Vertical");
 
-            //Input D   
-            if (raycastRight.collider == null && hPlayerMoveDirection > 0)
+            if(hPlayerMoveDirection != 0 || vPlayerMoveDirection != 0)
+            {
+                isMove = false;
+            }
+
+            //Input D
+            if (hPlayerMoveDirection > 0)
             {
                 //Move
-                isMove = false;
                 moveVec = new Vector2(1, 0);
             }
             //Input A
-            else if (raycastLeft.collider == null && hPlayerMoveDirection < 0)
+            else if (hPlayerMoveDirection < 0)
             {
                 //Move
-                isMove = false;
                 moveVec = new Vector2(-1, 0);
             }
             //Input W
-            else if (raycastUp.collider == null && vPlayerMoveDirection > 0) 
+            else if (vPlayerMoveDirection > 0) 
             {
                 //Move
-                isMove = false;
                 moveVec = new Vector2(0, 1);
             }
             //Intput S
-            else if (raycastDown.collider == null && vPlayerMoveDirection < 0)
+            else if (vPlayerMoveDirection < 0)
             {
                 //Move
-                isMove = false;
                 moveVec = new Vector2(0, -1);
-            }
-            //Can't Move
-            else
-            {
-                isMove = true;
-                hPlayerMoveDirection = 0;
-                vPlayerMoveDirection = 0;
             }
         }
     }
@@ -201,7 +195,7 @@ public class PlayerAction : MonoBehaviour
         {
             isMove = true;
             moveVec = Vector2.zero;
-            //PlayerRaycast();
+            PlayerRaycast();
         }
     }
 
@@ -222,10 +216,32 @@ public class PlayerAction : MonoBehaviour
         Debug.DrawRay(raycastLeftPosition, new Vector2(-rayDistance, 0), new Color(0, 1, 0));
         Debug.DrawRay(raycastRightPosition, new Vector2(rayDistance, 0), new Color(0, 1, 0));
 
-        Debug.Log("Down" + raycastDown.collider);
-        Debug.Log("Up" + raycastUp.collider);
-        Debug.Log("Right" + raycastRight.collider);
-        Debug.Log("Left" + raycastLeft.collider);
+        Debug.Log("Down " + raycastDown.collider);
+        Debug.Log("Up " + raycastUp.collider);
+        Debug.Log("Right " + raycastRight.collider);
+        Debug.Log("Left " + raycastLeft.collider);
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        Debug.Log(collision.collider.tag);
+
+        //Player Collision Borderline 
+        if(collision.gameObject.tag != "Borderline")
+        {
+            //Reset Player Position
+            isMove = true;
+            moveVec = Vector2.zero;
+            rigid.position = new Vector2(Mathf.Round(rigid.position.x), Mathf.Round(rigid.position.y));
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+
+        Debug.Log(collision.name);
+
+        rigid.position = collision.transform.Find("TP").position;
     }
 
     void PlayerInteraction()
