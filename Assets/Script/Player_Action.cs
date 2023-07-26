@@ -222,10 +222,30 @@ public class PlayerAction : MonoBehaviour
         Debug.DrawRay(raycastLeftPosition, new Vector2(-rayDistance, 0), new Color(0, 1, 0));
         Debug.DrawRay(raycastRightPosition, new Vector2(rayDistance, 0), new Color(0, 1, 0));
 
-        Debug.Log("Down" + raycastDown.collider);
-        Debug.Log("Up" + raycastUp.collider);
-        Debug.Log("Right" + raycastRight.collider);
-        Debug.Log("Left" + raycastLeft.collider);
+        Debug.Log("Down " + raycastDown.collider);
+        Debug.Log("Up " + raycastUp.collider);
+        Debug.Log("Right " + raycastRight.collider);
+        Debug.Log("Left " + raycastLeft.collider);
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        Debug.Log(collision.collider.tag);
+
+        //Player Collision Borderline 
+        if(collision.gameObject.tag != "Borderline")
+        {
+            //Reset Player Position
+            isMove = true;
+            moveVec = Vector2.zero;
+            rigid.position = new Vector2(Mathf.Round(rigid.position.x), Mathf.Round(rigid.position.y));
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        rigid.position = collision.transform.Find("TP").position;
+
     }
 
     void PlayerInteraction()
