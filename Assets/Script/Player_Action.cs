@@ -238,9 +238,6 @@ public class PlayerAction : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-
-        Debug.Log(collision.name);
-
         rigid.position = collision.transform.Find("TP").position;
     }
 
