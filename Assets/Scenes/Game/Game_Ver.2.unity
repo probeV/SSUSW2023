@@ -741,8 +741,9 @@ GameObject:
   - component: {fileID: 295324707}
   - component: {fileID: 295324709}
   - component: {fileID: 295324708}
+  - component: {fileID: 295324710}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: MainText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -788,11 +789,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uB4E4\uC5B4\uC654\uB294\uB370 \uBC14\uB2E5 \uD0C0\uC77C\uC774 \uB35C\uCEF9\uAC70\uB9B0\uB2E4.\n\n\uBC14\uB2E5
-    \uD0C0\uC77C\uC744 \uB72F\uC5B4\uBCFC\uAE4C? \uC544\uB2C8\uBA74 \uBC14\uB2E5
-    \uD0C0\uC77C\uC744 \uBC1F\uC744\uAE4C?\n\n\uD654\uBA74\uC744 \uC88C\uC6B0\uB85C
-    \uC2AC\uB77C\uC774\uB4DC\uD558\uC5EC \uC120\uD0DD\uC9C0\uB97C \uD655\uC778\uD558\uACE0
-    \uB354\uBE14 \uD074\uB9AD\uC73C\uB85C \uC120\uD0DD\uD558\uC138\uC694.\n\n"
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2cf212003525942368ce22d215371716, type: 2}
   m_sharedMaterial: {fileID: -2717949571951141348, guid: 2cf212003525942368ce22d215371716, type: 2}
@@ -831,7 +828,7 @@ MonoBehaviour:
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 30
-  m_lineSpacing: 20
+  m_lineSpacing: 40
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
@@ -869,6 +866,51 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 295324706}
   m_CullTransparentMesh: 1
+--- !u!114 &295324710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 295324706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 2
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1197058258}
+          m_TargetAssemblyTypeName: TypingManager, Assembly-CSharp
+          m_MethodName: GetInputDown
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 3
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1197058258}
+          m_TargetAssemblyTypeName: TypingManager, Assembly-CSharp
+          m_MethodName: GetInputUp
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &315526841
 GameObject:
   m_ObjectHideFlags: 0
@@ -918,6 +960,64 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 870ae60bd377a42899b354cf7066f25b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &664538899
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 664538900}
+  - component: {fileID: 664538901}
+  m_Layer: 0
+  m_Name: TextSender
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &664538900
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 664538899}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2131984707}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &664538901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 664538899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2624fbd03a30b47c5b7e19110179adb3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogStrings:
+  - "....! \uB208\uC744 \uB5B4\uC744 \uB54C\uB294 \uC0AC\uBC29\uC774 \uC554\uD751\uC774\uC5C8\uB2E4.
+    \uC190\uBAA9\uC5D0 \uC788\uB294 \uC2DC\uACC4\uB97C \uBCF4\uB2C8 \uC0C8\uBCBD
+    2\uC2DC.   \uB0B4\uC77C \uC788\uB294 \uC804\uACF5 \uC2DC\uD5D8\uC744 \uC900\uBE44\uD558\uAE30
+    \uC704\uD574 \uC0C8\uBCBD\uAE4C\uC9C0 \uACFC\uBC29\uC5D0\uC11C \uACF5\uBD80\uB97C
+    \uD558\uACE0 \uC788\uB2E4\uAC00 \uC7A0\uB4E4\uC5C8\uB098\uBCF4\uB2E4...."
+  - "\uACFC\uBC29 \uBB38\uC740 \uC7A0\uACA8 \uC788\uC5B4, \uBB38\uC740 \uC5F4\uB9AC\uC9C0
+    \uC54A\uB294\uB2E4.  \uD578\uB4DC\uD3F0\uC740 \uBC30\uD130\uB9AC\uAC00 \uAEBC\uC838
+    \uC788\uC5B4 \uC5F0\uB77D\uD560 \uBC29\uBC95\uC774 \uC5C6\uB2E4. \uBC16\uC740
+    \uBE44\uAC00 \uC624\uB294\uC9C0 \uC18C\uB9AC\uAC00 \uD3ED\uD48D\uC6B0 \uC18C\uB9AC\uAC00
+    \uB4E4\uB9B0\uB2E4.  \uB0B4\uC77C \uC544\uCE68 9\uC2DC\uC5D0 \uC2DC\uD5D8\uC788\uB294\uB370..
+    \uADF8 \uC804\uAE4C\uC9C0 \uC815\uBCF4\uC12C\uC744 \uD0C8\uCD9C\uD560 \uC218
+    \uC788\uC744\uAE4C?"
+  textObj: {fileID: 295324708}
 --- !u!1 &756802845
 GameObject:
   m_ObjectHideFlags: 0
@@ -1306,6 +1406,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e09155c74c6c48ba9ae7ee9fcffc0f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timeForCharacter: 0.08
+  timeForCharacter_Fast: 0.03
 --- !u!1 &1345968207
 GameObject:
   m_ObjectHideFlags: 0
@@ -1851,6 +1953,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 664538900}
   - {fileID: 1197058257}
   m_Father: {fileID: 0}
   m_RootOrder: 3
