@@ -617,7 +617,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 601046210}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4c71110b1ab914a46814a1abe48e4cef, type: 3}
+  m_Script: {fileID: 11500000, guid: 77255cb9db1f64a539f9b6c771c1b36f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &608848288
@@ -707,8 +707,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 601046212}
-        m_TargetAssemblyTypeName: Game_Change, Assembly-CSharp
-        m_MethodName: ChangeScene
+        m_TargetAssemblyTypeName: Theme_Change, Assembly-CSharp
+        m_MethodName: ThemeChange
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

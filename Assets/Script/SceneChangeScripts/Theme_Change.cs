@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Game_Change : MonoBehaviour
+public class Theme_Change : MonoBehaviour
 {
-    public void ChangeScene()
+    public void ThemeChange()
     {
-        SceneManager.LoadScene("StoryGameScene");
+        SceneManager.LoadSceneAsync("ThemeSelect");
     }
 }
