@@ -10,11 +10,23 @@ EditorBuildSettings:
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/MainPage/MyPage.unity
-    guid: 1d22f892d4f194ccab040ded9a4d2c79
+    guid: 7d7fd280774c4440496746b22279d744
   - enabled: 1
     path: Assets/Scenes/MainPage/Settings.unity
     guid: c8bcf005006964bbf8685d5a1db918ba
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Game/ClueGameScene.unity
     guid: ee191f37cf0cc45c8b04b711c6825c53
+  - enabled: 1
+    path: Assets/Scenes/Game/StoryGameScene.unity
+    guid: c2d5db23a7131429392e76b32bca2cb4
+  - enabled: 1
+    path: Assets/Scenes/Game/ShortStoryGameScene.unity
+    guid: f68aa598ac37c481d91a3d8ac802352c
+  - enabled: 1
+    path: Assets/Scenes/Game/BasicGameScene.unity
+    guid: f742f567d9d054441b8e4a7381317f5c
+  - enabled: 1
+    path: Assets/Scenes/Game/ThemeSelect.unity
+    guid: 9215f72d6a01649d3ad80fdade124071
   m_configObjects: {}
