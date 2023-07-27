@@ -29,11 +29,12 @@ public class PlayerAction : MonoBehaviour
         rigid = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
 
-        PlayerRaycast();
     }
 
     void Update()
     {
+        PlayerRaycast();
+
         //Player Move Input
         //MoveInput();
         MoveInput_Test();
@@ -92,35 +93,40 @@ public class PlayerAction : MonoBehaviour
             hPlayerMoveDirection = Input.GetAxisRaw("Horizontal");
             vPlayerMoveDirection = Input.GetAxisRaw("Vertical");
 
-            if(hPlayerMoveDirection != 0 || vPlayerMoveDirection != 0)
-            {
-                isMove = false;
-            }
-
-
             //Input D   
-            if (hPlayerMoveDirection > 0)
+            if (raycastRight.collider == null && hPlayerMoveDirection > 0)
             {
                 //Move
+                isMove = false;
                 moveVec = new Vector2(1, 0);
             }
             //Input A
-            else if (hPlayerMoveDirection < 0)
+            else if (raycastLeft.collider == null && hPlayerMoveDirection < 0)
             {
                 //Move
+                isMove = false;
                 moveVec = new Vector2(-1, 0);
             }
             //Input W
-            else if (vPlayerMoveDirection > 0) 
+            else if (raycastUp.collider == null && vPlayerMoveDirection > 0) 
             {
                 //Move
+                isMove = false;
                 moveVec = new Vector2(0, 1);
             }
             //Intput S
-            else if (vPlayerMoveDirection < 0)
+            else if (raycastDown.collider == null && vPlayerMoveDirection < 0)
             {
                 //Move
+                isMove = false;
                 moveVec = new Vector2(0, -1);
+            }
+            //Can't Move
+            else
+            {
+                isMove = true;
+                hPlayerMoveDirection = 0;
+                vPlayerMoveDirection = 0;
             }
         }
     }
@@ -195,8 +201,7 @@ public class PlayerAction : MonoBehaviour
         {
             isMove = true;
             moveVec = Vector2.zero;
-
-            PlayerRaycast();
+            //PlayerRaycast();
         }
     }
 
@@ -228,29 +233,18 @@ public class PlayerAction : MonoBehaviour
         Debug.Log(collision.collider.tag);
 
         //Player Collision Borderline 
-        if (collision.gameObject.tag == "BorderLine")
+        if(collision.gameObject.tag != "Borderline")
         {
             //Reset Player Position
             isMove = true;
             moveVec = Vector2.zero;
             rigid.position = new Vector2(Mathf.Round(rigid.position.x), Mathf.Round(rigid.position.y));
         }
-
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-
-        if (collision.tag == "Teleport")
-        {
-            rigid.position = collision.transform.Find("TP").position;
-        }
-        else if (collision.tag == "ObjectInteraction")
-        {
-            isMove = true;
-            moveVec = Vector2.zero;
-            rigid.position = new Vector2(Mathf.Round(rigid.position.x), Mathf.Round(rigid.position.y));
-        }
+        rigid.position = collision.transform.Find("TP").position;
 
     }
 

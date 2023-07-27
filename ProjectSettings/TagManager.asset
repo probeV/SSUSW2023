@@ -8,8 +8,6 @@ TagManager:
   - Wall
   - Tile
   - BorderLine
-  - ObjectInteraction
-  - Teleport
   layers:
   - Default
   - TransparentFX
@@ -51,15 +49,9 @@ TagManager:
     uniqueID: 2700632755
     locked: 0
   - name: Object
-    uniqueID: 357982797
-    locked: 0
-  - name: Player
     uniqueID: 3350614413
     locked: 0
-  - name: FrontObject
-    uniqueID: 3431651683
-    locked: 0
-  - name: FrontWall
+  - name: New Layer 4
     uniqueID: 3140711087
     locked: 0
   - name: Default
