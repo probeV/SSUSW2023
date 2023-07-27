@@ -9914,19 +9914,11 @@ Tilemap:
   - m_RefCount: 1
     m_Data: {fileID: -83559422, guid: cd43befc05d42da43b94bd450a5a069c, type: 3}
   - m_RefCount: 1
-<<<<<<< Updated upstream
     m_Data: {fileID: 943321474, guid: 2e83b090107be344d96fbeab69785ca8, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: -871981511, guid: 2e83b090107be344d96fbeab69785ca8, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: -1505019110, guid: 2e83b090107be344d96fbeab69785ca8, type: 3}
-=======
-    m_Data: {fileID: -538677673, guid: 3da17de3bb4f8c74b8654d85cf46f4af, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: -2048493868, guid: 3da17de3bb4f8c74b8654d85cf46f4af, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: -629200775, guid: 3da17de3bb4f8c74b8654d85cf46f4af, type: 3}
->>>>>>> Stashed changes
   - m_RefCount: 1
     m_Data: {fileID: 1072722128, guid: edfddbe412d218946af0788c435f84af, type: 3}
   - m_RefCount: 1
@@ -9944,11 +9936,7 @@ Tilemap:
   - m_RefCount: 1
     m_Data: {fileID: -38316172, guid: edfddbe412d218946af0788c435f84af, type: 3}
   m_TileMatrixArray:
-<<<<<<< Updated upstream
   - m_RefCount: 851
-=======
-  - m_RefCount: 841
->>>>>>> Stashed changes
     m_Data:
       e00: 1
       e01: 0
@@ -9967,11 +9955,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-<<<<<<< Updated upstream
   - m_RefCount: 851
-=======
-  - m_RefCount: 841
->>>>>>> Stashed changes
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -10704,11 +10688,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-<<<<<<< Updated upstream
   m_SortingLayerID: 1862465425
-=======
-  m_SortingLayerID: -1154256209
->>>>>>> Stashed changes
   m_SortingLayer: -2
   m_SortingOrder: 0
   m_Sprite: {fileID: -2118050683, guid: 09e4a01c4ecd2154fad78502b85d7517, type: 3}
@@ -20277,11 +20257,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1154256209
-<<<<<<< Updated upstream
   m_SortingLayer: -3
-=======
-  m_SortingLayer: -2
->>>>>>> Stashed changes
   m_SortingOrder: 0
   m_Sprite: {fileID: -1988645867, guid: 6a00c7c8fb3a02645b4e62ba94a24a89, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -28912,11 +28888,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-<<<<<<< Updated upstream
   m_SortingLayerID: 1862465425
-=======
-  m_SortingLayerID: -1154256209
->>>>>>> Stashed changes
   m_SortingLayer: -2
   m_SortingOrder: 0
   m_Sprite: {fileID: 1625169845, guid: 09e4a01c4ecd2154fad78502b85d7517, type: 3}
@@ -30307,11 +30279,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-<<<<<<< Updated upstream
   m_SortingLayerID: 1862465425
-=======
-  m_SortingLayerID: -1154256209
->>>>>>> Stashed changes
   m_SortingLayer: -2
   m_SortingOrder: 0
   m_Sprite: {fileID: -542915819, guid: 09e4a01c4ecd2154fad78502b85d7517, type: 3}
@@ -31329,17 +31297,6 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 0feefb2eb8a11a045a0fb0c817581c86, type: 2}
   - m_RefCount: 3
     m_Data: {fileID: 11400000, guid: 3c9e4d00f0344c44eb391b56a5c0355c, type: 2}
-<<<<<<< Updated upstream
-=======
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 20d67dceac985f14585956163c12817e, type: 2}
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 02af6961c9a567c4a9f6de50413aeac1, type: 2}
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 0699b147f18d3a1479c6adfab3ecea7f, type: 2}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
->>>>>>> Stashed changes
   m_TileSpriteArray:
   - m_RefCount: 2
     m_Data: {fileID: -1116466123, guid: 2e83b090107be344d96fbeab69785ca8, type: 3}
@@ -31449,21 +31406,8 @@ Tilemap:
     m_Data: {fileID: -1053272776, guid: 9b060ed877acc7e40b8bc4c4acdcf6f7, type: 3}
   - m_RefCount: 3
     m_Data: {fileID: -1874391810, guid: 09e4a01c4ecd2154fad78502b85d7517, type: 3}
-<<<<<<< Updated upstream
   m_TileMatrixArray:
   - m_RefCount: 84
-=======
-  - m_RefCount: 1
-    m_Data: {fileID: 211916733, guid: 2e83b090107be344d96fbeab69785ca8, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: -1615984084, guid: 2e83b090107be344d96fbeab69785ca8, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: 943321474, guid: 2e83b090107be344d96fbeab69785ca8, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: -1190098014, guid: 2e83b090107be344d96fbeab69785ca8, type: 3}
-  m_TileMatrixArray:
-  - m_RefCount: 87
->>>>>>> Stashed changes
     m_Data:
       e00: 1
       e01: 0
@@ -31482,11 +31426,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-<<<<<<< Updated upstream
   - m_RefCount: 84
-=======
-  - m_RefCount: 87
->>>>>>> Stashed changes
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -47282,11 +47222,7 @@ TilemapRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-<<<<<<< Updated upstream
   m_SortingLayerID: 1927213303
-=======
-  m_SortingLayerID: -1416533205
->>>>>>> Stashed changes
   m_SortingLayer: -1
   m_SortingOrder: 5
   m_ChunkSize: {x: 32, y: 32, z: 32}
