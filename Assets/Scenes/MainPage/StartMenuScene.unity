@@ -258,55 +258,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 159186828}
   m_CullTransparentMesh: 1
---- !u!1 &175326554
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 175326555}
-  - component: {fileID: 175326556}
-  m_Layer: 5
-  m_Name: Click
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &175326555
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 175326554}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2106123721}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 60, y: 60}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &175326556
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 175326554}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3e04b2934eebc492092503b312080c94, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &488186243
 GameObject:
   m_ObjectHideFlags: 0
@@ -452,6 +403,7 @@ GameObject:
   - component: {fileID: 539623810}
   - component: {fileID: 539623809}
   - component: {fileID: 539623811}
+  - component: {fileID: 539623812}
   m_Layer: 5
   m_Name: MyPageBtn
   m_TagString: Untagged
@@ -470,8 +422,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 3.6036036, y: 3.6036036, z: 3.6036036}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1783685029}
+  m_Children: []
   m_Father: {fileID: 644971302}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -559,9 +510,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1783685030}
-        m_TargetAssemblyTypeName: My_Page_Change, Assembly-CSharp
-        m_MethodName: SceneChange
+      - m_Target: {fileID: 539623812}
+        m_TargetAssemblyTypeName: Scene_Change, Assembly-CSharp
+        m_MethodName: ChangeSceneBtn
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -571,53 +522,16 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!1 &601046210
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 601046211}
-  - component: {fileID: 601046212}
-  m_Layer: 5
-  m_Name: Click
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &601046211
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 601046210}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 608848289}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &601046212
+--- !u!114 &539623812
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 601046210}
+  m_GameObject: {fileID: 539623807}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 77255cb9db1f64a539f9b6c771c1b36f, type: 3}
+  m_Script: {fileID: 11500000, guid: 05e0f7f6d69f2438f94b99e0f8d7187c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &608848288
@@ -653,7 +567,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1267706780}
-  - {fileID: 601046211}
   m_Father: {fileID: 644971302}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -706,9 +619,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 601046212}
-        m_TargetAssemblyTypeName: Theme_Change, Assembly-CSharp
-        m_MethodName: ThemeChange
+      - m_Target: {fileID: 608848293}
+        m_TargetAssemblyTypeName: Scene_Change, Assembly-CSharp
+        m_MethodName: ChangeSceneBtn
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -765,7 +678,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 608848288}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b9260766b5e442b2b66297c46e229fb, type: 3}
+  m_Script: {fileID: 11500000, guid: 05e0f7f6d69f2438f94b99e0f8d7187c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &644971298
@@ -1078,55 +991,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1783685028
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1783685029}
-  - component: {fileID: 1783685030}
-  m_Layer: 5
-  m_Name: Click
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1783685029
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1783685028}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 539623808}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 60, y: 60}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1783685030
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1783685028}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e4d445c7f196450987ec76ac020477a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1993934565
 GameObject:
   m_ObjectHideFlags: 0
@@ -1231,6 +1095,7 @@ GameObject:
   - component: {fileID: 2106123723}
   - component: {fileID: 2106123722}
   - component: {fileID: 2106123724}
+  - component: {fileID: 2106123725}
   m_Layer: 5
   m_Name: SettingBtn
   m_TagString: Untagged
@@ -1249,8 +1114,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 3.6036036, y: 3.6036036, z: 3.6036036}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 175326555}
+  m_Children: []
   m_Father: {fileID: 644971302}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1338,9 +1202,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 175326556}
-        m_TargetAssemblyTypeName: Setting_Change, Assembly-CSharp
-        m_MethodName: SceneChange
+      - m_Target: {fileID: 2106123725}
+        m_TargetAssemblyTypeName: Scene_Change, Assembly-CSharp
+        m_MethodName: ChangeSceneBtn
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1350,3 +1214,15 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &2106123725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2106123720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05e0f7f6d69f2438f94b99e0f8d7187c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
