@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class q : MonoBehaviour
+public class Object : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -15,4 +15,9 @@ public class q : MonoBehaviour
     {
         
     }
+}
+
+public class Object_Teleportation : Object
+{
+
 }
