@@ -2,16 +2,24 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Mission_clue_key : MonoBehaviour
+public class mission_1_bed_key : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log("hello");
+        Debug.Log("key script start");
     }
 
     // Update is called once per frame
     void Update()
+    {
+        if (Input.GetMouseButton(0))
+        {
+            Debug.Log("key check");
+        }
+    }
+
+    /*void Update()
     {
         if (Input.touchCount > 0)
         {
@@ -20,7 +28,7 @@ public class Mission_clue_key : MonoBehaviour
             Debug.Log(key_touch.position.y);
         }
     }
-    /*private void OnMouseUp() //마우스 버튼이 올라갈 때
+    private void OnMouseUp() //마우스 버튼이 올라갈 때
     {
         
     }
