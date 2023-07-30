@@ -10,46 +10,33 @@ static class Constants
     public const int DOWN = 1;
     public const int LEFT = 2;
     public const int RIGHT = 3;
+    public const int PATH = 4;
+    public const int WALL = 5;
 }
 
 public class AudioNavigation : MonoBehaviour
 {
+ 
     AudioSource[] audioSources;
 
-    SoundManager soundManager;
+    AudioManager audioManager;
     PlayerAction playerAction;
 
     private void Awake()
     {
         playerAction = GetComponent<PlayerAction>();
 
-        soundManager = GameObject.Find("SoundManager").GetComponent<SoundManager>();
-    }
-
-    private void Start()
-    {
-        Transform NaviSound = soundManager.transform.Find("NaviSound");
-
-        if (NaviSound != null)
-        {
-            audioSources = NaviSound.GetComponentsInChildren<AudioSource>();
-        }
+        audioManager = GameObject.Find("AudioManager").GetComponent<AudioManager>();
+        audioSources = audioManager.transform.Find("NaviSound").GetComponentsInChildren<AudioSource>();
     }
 
     private void FixedUpdate()
     {
-        Debug.Log("Down " + playerAction.raycastDown.collider);
-        Debug.Log("Up " + playerAction.raycastUp.collider);
-        Debug.Log("Right " + playerAction.raycastRight.collider);
-        Debug.Log("Left " + playerAction.raycastLeft.collider);
-
-        if (soundManager.isNaviSound)
+        if (audioManager.isNaviSound)
         {
-            soundManager.isNaviSound = false;
+            audioManager.isNaviSound = false;
             NaviSound();
         }
-
-
     }
 
     private void NaviSound()
@@ -57,45 +44,57 @@ public class AudioNavigation : MonoBehaviour
         //Up
         if (playerAction.raycastUp.collider == null)
         {
-            
+            audioSources[Constants.UP].Play();
+            audioSources[Constants.PATH].Play();
         }
         else if (!playerAction.raycastUp.collider.CompareTag("BorderLine"))
         {
             audioSources[Constants.UP].Play();
             playerAction.raycastUp.collider.GetComponent<AudioSource>().Play();
         }
+       
+        ////Down
+        //if (playerAction.raycastDown.collider == null)
+        //{
+        //    audioSources[Constants.DOWN].Play();
+        //    audioSources[Constants.PATH].Play();
+        //}
+        //else if (!playerAction.raycastDown.collider.CompareTag("BorderLine"))
+        //{
+        //    audioSources[Constants.DOWN].Play();
+        //    playerAction.raycastDown.collider.GetComponent<AudioSource>().Play();
+        //}
 
-        //Down
-        if (playerAction.raycastDown.collider == null)
-        {
+        ////Left
+        //if (playerAction.raycastLeft.collider == null)
+        //{
+        //    audioSources[Constants.LEFT].Play();
+        //    audioSources[Constants.PATH].Play();
+        //}
+        //else if (!playerAction.raycastLeft.collider.CompareTag("BorderLine"))
+        //{
+        //    audioSources[Constants.LEFT].Play();
+        //    playerAction.raycastLeft.collider.GetComponent<AudioSource>().Play();
+        //}
 
-        }
-        else if (!playerAction.raycastDown.collider.CompareTag("BorderLine"))
-        {
-            audioSources[Constants.DOWN].Play();
-            playerAction.raycastDown.collider.GetComponent<AudioSource>().Play();
-        }
+        ////Right
+        //if (playerAction.raycastRight.collider == null)
+        //{
+        //    audioSources[Constants.RIGHT].Play();
+        //    audioSources[Constants.PATH].Play();
+        //}
+        //else if (!playerAction.raycastRight.collider.CompareTag("BorderLine"))
+        //{
+        //    audioSources[Constants.RIGHT].Play();
+        //    playerAction.raycastRight.collider.GetComponent<AudioSource>().Play();
+        //}
+    }
 
-        //Left
-        if (playerAction.raycastLeft.collider == null)
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.collider.CompareTag("BorderLine"))
         {
-
-        }
-        else if (!playerAction.raycastLeft.collider.CompareTag("BorderLine"))
-        {
-            audioSources[Constants.LEFT].Play();
-            playerAction.raycastLeft.collider.GetComponent<AudioSource>().Play();
-        }
-
-        //Right
-        if (playerAction.raycastRight.collider == null)
-        {
-
-        }
-        else if (!playerAction.raycastRight.collider.CompareTag("BorderLine"))
-        {
-            audioSources[Constants.RIGHT].Play();
-            playerAction.raycastRight.collider.GetComponent<AudioSource>().Play();
+            audioSources[Constants.WALL].Play();
         }
     }
 
