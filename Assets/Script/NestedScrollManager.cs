@@ -52,21 +52,19 @@ public class NestedScrollManager : MonoBehaviour, IBeginDragHandler, IDragHandle
         //절반 거리를 넘지 않아도 마우스를 빠르게 이동하면
         if (curPos == targetPos)
         {
-            print(eventData.delta.x);
+            // <- 으로 이동 시 목표가 하나 감소
+            if (eventData.delta.x > 18 && curPos - distance >= 0)
+            {
+                --targetIndex;
+                targetPos = curPos - distance;
+            }
 
-        //    //스크롤이 왼쪽으로 빠르게 이동 시 목표가 하나 감소
-        //    if (eventData.delta.x > 18 && curPos - distance >= 0)
-        //    {
-        //        --targetIndex;
-        //        targetPos = curPos - distance;
-        //    }
-
-        //    //스크롤이 오른쪽으로 빠르게 이동 시 목표가 하나 증가
-        //    if (eventData.delta.x < -18 && curPos + distance <= 1.01f)
-        //    {
-        //        ++targetIndex;
-        //        targetPos = curPos + distance;
-        //    }
+            // -> 으로 이동 시 목표가 하나 증가
+            if (eventData.delta.x < -18 && curPos + distance <= 1.01f)
+            {
+                ++targetIndex;
+                targetPos = curPos + distance;
+            }
         }
     }
 
