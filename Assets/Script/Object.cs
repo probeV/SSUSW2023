@@ -21,8 +21,3 @@ public class Object_Teleportation : Object
 {
 
 }
-
-public class Object_Interaction : Object
-{
-
-}
