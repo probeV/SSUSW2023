@@ -5,13 +5,16 @@ using UnityEngine;
 
 public class PlayerAction : MonoBehaviour
 {
+    Rigidbody2D rigid;
+    Animator anim;
+
+    AudioNavigation audioNavigation;
+
     public float speed;
 
     [HideInInspector]
     public RaycastHit2D raycastDown, raycastUp, raycastLeft, raycastRight;
 
-    Rigidbody2D rigid;
-    Animator anim;
 
     Vector2 moveVec;
 
@@ -32,8 +35,9 @@ public class PlayerAction : MonoBehaviour
         rigid = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
 
-        PlayerRaycast();
+        audioNavigation=GetComponent<AudioNavigation>();
 
+        PlayerRaycast();
     }
 
     void Update()

@@ -268,7 +268,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2113d9b627dd14075b313e9589c3483f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 0}
+  isSound: 0
 --- !u!82 &54712432
 AudioSource:
   m_ObjectHideFlags: 0
@@ -545,7 +545,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2113d9b627dd14075b313e9589c3483f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 0}
+  isSound: 0
 --- !u!82 &78546300
 AudioSource:
   m_ObjectHideFlags: 0
@@ -21787,7 +21787,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2113d9b627dd14075b313e9589c3483f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 0}
+  isSound: 0
 --- !u!82 &523447465
 AudioSource:
   m_ObjectHideFlags: 0
@@ -22532,7 +22532,6 @@ GameObject:
   - component: {fileID: 621351739}
   - component: {fileID: 621351738}
   - component: {fileID: 621351740}
-  - component: {fileID: 621351741}
   m_Layer: 12
   m_Name: B1_bathroom_w_Trigger
   m_TagString: Teleport
@@ -22749,19 +22748,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &621351741
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 621351736}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2113d9b627dd14075b313e9589c3483f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  audioSource: {fileID: 0}
 --- !u!1 &622901398
 GameObject:
   m_ObjectHideFlags: 0
@@ -23276,7 +23262,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2113d9b627dd14075b313e9589c3483f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 0}
+  isSound: 0
 --- !u!82 &660287299
 AudioSource:
   m_ObjectHideFlags: 0
@@ -23384,9 +23370,10 @@ GameObject:
   - component: {fileID: 667058143}
   - component: {fileID: 667058142}
   - component: {fileID: 667058141}
-  - component: {fileID: 667058140}
   - component: {fileID: 667058139}
   - component: {fileID: 667058138}
+  - component: {fileID: 667058140}
+  - component: {fileID: 667058144}
   m_Layer: 9
   m_Name: Player
   m_TagString: Player
@@ -23473,6 +23460,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
+  isMove: 1
 --- !u!50 &667058141
 Rigidbody2D:
   serializedVersion: 4
@@ -23565,9 +23553,24 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 163113918}
+  - {fileID: 1712868397}
+  - {fileID: 2122924121}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &667058144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 667058137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2113d9b627dd14075b313e9589c3483f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isSound: 0
 --- !u!1 &689100935
 GameObject:
   m_ObjectHideFlags: 0
@@ -31468,7 +31471,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2113d9b627dd14075b313e9589c3483f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 0}
+  isSound: 0
 --- !u!82 &874340807
 AudioSource:
   m_ObjectHideFlags: 0
@@ -31710,7 +31713,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2113d9b627dd14075b313e9589c3483f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 0}
+  isSound: 0
 --- !u!82 &879663623
 AudioSource:
   m_ObjectHideFlags: 0
@@ -32513,7 +32516,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2113d9b627dd14075b313e9589c3483f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 0}
+  isSound: 0
 --- !u!82 &976905673
 AudioSource:
   m_ObjectHideFlags: 0
@@ -34151,7 +34154,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2113d9b627dd14075b313e9589c3483f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 0}
+  isSound: 0
 --- !u!82 &1192006212
 AudioSource:
   m_ObjectHideFlags: 0
@@ -34725,7 +34728,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2113d9b627dd14075b313e9589c3483f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 0}
+  isSound: 0
 --- !u!82 &1252272415
 AudioSource:
   m_ObjectHideFlags: 0
@@ -36666,7 +36669,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2113d9b627dd14075b313e9589c3483f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 0}
+  isSound: 0
 --- !u!82 &1316853990
 AudioSource:
   m_ObjectHideFlags: 0
@@ -37111,7 +37114,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2113d9b627dd14075b313e9589c3483f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 0}
+  isSound: 0
 --- !u!82 &1371371365
 AudioSource:
   m_ObjectHideFlags: 0
@@ -37710,7 +37713,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2113d9b627dd14075b313e9589c3483f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 0}
+  isSound: 0
 --- !u!1 &1417113401
 GameObject:
   m_ObjectHideFlags: 0
@@ -37855,7 +37858,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2113d9b627dd14075b313e9589c3483f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 0}
+  isSound: 0
 --- !u!82 &1417113406
 AudioSource:
   m_ObjectHideFlags: 0
@@ -38599,7 +38602,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2113d9b627dd14075b313e9589c3483f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 0}
+  isSound: 0
 --- !u!82 &1494157543
 AudioSource:
   m_ObjectHideFlags: 0
@@ -39395,7 +39398,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2113d9b627dd14075b313e9589c3483f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 0}
+  isSound: 0
 --- !u!82 &1616646599
 AudioSource:
   m_ObjectHideFlags: 0
@@ -39539,7 +39542,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2113d9b627dd14075b313e9589c3483f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 0}
+  isSound: 0
 --- !u!82 &1620072795
 AudioSource:
   m_ObjectHideFlags: 0
@@ -53941,6 +53944,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 1
   m_SpriteSortPoint: 0
+--- !u!1 &1712868396
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1712868397}
+  m_Layer: 9
+  m_Name: Route Sound
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1712868397
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1712868396}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 667058143}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1721473541
 GameObject:
   m_ObjectHideFlags: 0
@@ -59170,7 +59204,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2113d9b627dd14075b313e9589c3483f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 0}
+  isSound: 0
 --- !u!82 &1808740757
 AudioSource:
   m_ObjectHideFlags: 0
@@ -59733,7 +59767,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2113d9b627dd14075b313e9589c3483f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 0}
+  isSound: 0
 --- !u!82 &1872021367
 AudioSource:
   m_ObjectHideFlags: 0
@@ -61300,6 +61334,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 1
   m_SpriteSortPoint: 0
+--- !u!1 &2122924120
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2122924121}
+  m_Layer: 9
+  m_Name: Walk Sound
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2122924121
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2122924120}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 667058143}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2135667859
 GameObject:
   m_ObjectHideFlags: 0
