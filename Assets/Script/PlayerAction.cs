@@ -7,10 +7,11 @@ public class PlayerAction : MonoBehaviour
 {
     public float speed;
 
-    RaycastHit2D raycastDown, raycastUp, raycastLeft, raycastRight;
+    [HideInInspector]
+    public RaycastHit2D raycastDown, raycastUp, raycastLeft, raycastRight;
+
     Rigidbody2D rigid;
     Animator anim;
-    AudioListener audioListener;
 
     Vector2 moveVec;
 
@@ -20,7 +21,9 @@ public class PlayerAction : MonoBehaviour
 
     float hPlayerMoveDirection;
     float vPlayerMoveDirection;
-    bool isMove = true;
+
+    [HideInInspector]
+    public bool isMove = true;
 
     int specialAnimationCount = 0;
 
