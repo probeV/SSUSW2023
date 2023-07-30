@@ -224,6 +224,8 @@ public class PlayerAction : MonoBehaviour
         Debug.Log("Up " + raycastUp.collider);
         Debug.Log("Right " + raycastRight.collider);
         Debug.Log("Left " + raycastLeft.collider);
+
+
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
