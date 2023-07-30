@@ -8,7 +8,7 @@ public class PlayerAction : MonoBehaviour
     Rigidbody2D rigid;
     Animator anim;
 
-    AudioNavigation audioNavigation;
+    SoundManager soundManager;
 
     public float speed;
 
@@ -35,7 +35,7 @@ public class PlayerAction : MonoBehaviour
         rigid = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
 
-        audioNavigation=GetComponent<AudioNavigation>();
+        soundManager = GameObject.Find("SoundManager").GetComponent<SoundManager>();
 
         PlayerRaycast();
     }
@@ -209,6 +209,8 @@ public class PlayerAction : MonoBehaviour
 
     void PlayerRaycast()
     {
+        soundManager.isNaviSound = true;
+
         Vector2 raycastDownPosition     = new Vector2(rigid.position.x, rigid.position.y - 0.5f - rayDistance);
         Vector2 raycastUpPosition       = new Vector2(rigid.position.x, rigid.position.y - 0.5f + rayDistance );
         Vector2 raycastLeftPosition     = new Vector2(rigid.position.x - rayDistance, rigid.position.y - 0.5f);
@@ -219,17 +221,15 @@ public class PlayerAction : MonoBehaviour
         raycastLeft     = Physics2D.Raycast(raycastLeftPosition, Vector2.left, rayDistance);
         raycastRight    = Physics2D.Raycast(raycastRightPosition, Vector2.right, rayDistance);
 
-        Debug.DrawRay(raycastDownPosition, new Vector2(0, -rayDistance), new Color(0, 1, 0));
-        Debug.DrawRay(raycastUpPosition, new Vector2(0, rayDistance), new Color(0, 1, 0));
-        Debug.DrawRay(raycastLeftPosition, new Vector2(-rayDistance, 0), new Color(0, 1, 0));
-        Debug.DrawRay(raycastRightPosition, new Vector2(rayDistance, 0), new Color(0, 1, 0));
+        //Debug.DrawRay(raycastDownPosition, new Vector2(0, -rayDistance), new Color(0, 1, 0));
+        //Debug.DrawRay(raycastUpPosition, new Vector2(0, rayDistance), new Color(0, 1, 0));
+        //Debug.DrawRay(raycastLeftPosition, new Vector2(-rayDistance, 0), new Color(0, 1, 0));
+        //Debug.DrawRay(raycastRightPosition, new Vector2(rayDistance, 0), new Color(0, 1, 0));
 
-        Debug.Log("Down " + raycastDown.collider);
-        Debug.Log("Up " + raycastUp.collider);
-        Debug.Log("Right " + raycastRight.collider);
-        Debug.Log("Left " + raycastLeft.collider);
-
-
+        //Debug.Log("Down " + raycastDown.collider);
+        //Debug.Log("Up " + raycastUp.collider);
+        //Debug.Log("Right " + raycastRight.collider);
+        //Debug.Log("Left " + raycastLeft.collider);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -237,7 +237,7 @@ public class PlayerAction : MonoBehaviour
         Debug.Log(collision.collider.tag);
 
         //Player Collision Borderline 
-        if (collision.gameObject.tag != "Borderline")
+        if (collision.gameObject.CompareTag("BorderLine"))
         {
             //Reset Player Position
             isMove = true;
@@ -250,11 +250,11 @@ public class PlayerAction : MonoBehaviour
     {
 
 
-        if (collision.tag == "Teleport")
+        if (collision.CompareTag("Teleport"))
         {
             rigid.position = collision.transform.Find("TP").position;
         }
-        else if(collision.tag == "ObjectInteraction")
+        else if(collision.CompareTag("ObjectInteraction"))
         {
 
         }
@@ -265,10 +265,4 @@ public class PlayerAction : MonoBehaviour
         moveVec = Vector2.zero;
     }
 
-
-
-    void PlayerAudio()
-    {
-
-    }
 }
