@@ -23,8 +23,8 @@ public class AudioManager : MonoBehaviour
 
     public enum Navi { Up, Down, Left, Right, PathGuide, WallBlock, B1Guide, F1Guide, F2Guide }
 
-    [HideInInspector]
-    public bool isMoving = false;
+    //Coroutine
+    private IEnumerator playNaviCoroutine;
 
     private void Awake()
     {
@@ -56,34 +56,46 @@ public class AudioManager : MonoBehaviour
 
     public void TakeNavi(Navi direction, Navi navi)
     {
+        if(playNaviCoroutine!= null)
+        {
+            StopCoroutine(playNaviCoroutine);
+            playNaviCoroutine = null;
+
+            channelIndex= 0;
+        }
+
         naviPlayers[channelIndex++].clip= naviClip[(int)direction];
         naviPlayers[channelIndex++].clip = naviClip[(int)navi];
     }
 
     public void TakeNaviObject(Navi direction, AudioSource navi)
     {
+        if (playNaviCoroutine != null)
+        {
+            StopCoroutine(playNaviCoroutine);
+            playNaviCoroutine = null;
+
+            channelIndex= 0;
+        }
+
         naviPlayers[channelIndex++].clip = naviClip[(int)direction];
         naviPlayers[channelIndex++].clip = navi.clip;
     }
 
     public void PlayNavi()
     {
-        StartCoroutine(PlayNaviRoutine());
+        playNaviCoroutine=PlayNaviRoutine();
+
+        StartCoroutine(playNaviCoroutine);
     }
 
     IEnumerator PlayNaviRoutine()
     {
-        yield return new WaitForSeconds(1.0f);
+        yield return new WaitForSeconds(0.5f);
 
         for (int index=0 ; index < channelIndex;) 
         {
-            if (!isMoving)
-            {
-                naviPlayers[index].Stop();
-                yield break;
-            }
-
-            yield return new WaitForSeconds(0.2f);
+            yield return new WaitForSeconds(0.1f);
             if (index == 0 || !naviPlayers[index-1].isPlaying)
             {
                 naviPlayers[index].Play();

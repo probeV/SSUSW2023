@@ -188,8 +188,6 @@ public class PlayerAction : MonoBehaviour
     {
         rigid.velocity = moveVec * speed;
 
-        AudioManager.instance.isMoving = (rigid.velocity == Vector2.zero);
-
         if ((previousPlayerPosition - rigid.position).magnitude >= 0.97f)
         {
             moveVec = Vector2.zero;
@@ -219,8 +217,6 @@ public class PlayerAction : MonoBehaviour
         Debug.Log("Up " + raycastUp.collider);
         Debug.Log("Right " + raycastRight.collider);
         Debug.Log("Left " + raycastLeft.collider);
-
-        AudioManager.instance.channelIndex= 0;
 
         //Up Raycast
         if (raycastUp.collider == null)
@@ -257,8 +253,6 @@ public class PlayerAction : MonoBehaviour
             //Reset Player Position
             moveVec = Vector2.zero;
             rigid.position = new Vector2(Mathf.Round(rigid.position.x), Mathf.Round(rigid.position.y));
-
-            AudioManager.instance.channelIndex = 0;
 
             AudioManager.Navi direction=0;
 
