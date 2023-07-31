@@ -1,18 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
+
 
 public class DialogueManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] GameObject go_DialogueBar;
+    [SerializeField] TextMeshProUGUI txt_Dialogue;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
+
+
 }
