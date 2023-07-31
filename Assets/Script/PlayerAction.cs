@@ -5,37 +5,33 @@ using UnityEngine;
 
 public class PlayerAction : MonoBehaviour
 {
+    //Component
     Rigidbody2D rigid;
     Animator anim;
 
-    AudioManager audioManager;
-
-    public float speed;
-
-    [HideInInspector]
-    public RaycastHit2D raycastDown, raycastUp, raycastLeft, raycastRight;
-
-
+    //Player Move 
     Vector2 moveVec;
 
     Vector2 previousPlayerPosition;
 
-    float rayDistance = 0.6f;
-
     float hPlayerMoveDirection;
     float vPlayerMoveDirection;
 
-    [HideInInspector]
-    public bool isMove = true;
+    public float speed;
 
+    //Player Raycast
+    float rayDistance = 0.6f;
+
+    [HideInInspector]
+    public RaycastHit2D raycastDown, raycastUp, raycastLeft, raycastRight;
+
+    //Player Animation
     int specialAnimationCount = 0;
 
     void Awake()
     {
         rigid = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
-
-        audioManager = GameObject.Find("AudioManager").GetComponent<AudioManager>();
     }
 
     void Update()
@@ -90,18 +86,13 @@ public class PlayerAction : MonoBehaviour
     void MoveInput_Test()
     {
         //Input Limit
-        if (isMove)
+        if (rigid.velocity==Vector2.zero)
         {
             rigid.position = new Vector2(Mathf.Round(rigid.position.x), Mathf.Round(rigid.position.y));
             previousPlayerPosition = rigid.position;
 
             hPlayerMoveDirection = Input.GetAxisRaw("Horizontal");
             vPlayerMoveDirection = Input.GetAxisRaw("Vertical");
-
-            if(hPlayerMoveDirection != 0 || vPlayerMoveDirection != 0)
-            {
-                isMove = false;
-            }
 
             //Input D   
             if (hPlayerMoveDirection > 0)
@@ -132,7 +123,7 @@ public class PlayerAction : MonoBehaviour
 
     void MoveInput()
     {
-        if (Input.touchCount == 1 && isMove)
+        if (Input.touchCount == 1 && rigid.velocity == Vector2.zero)
         {
             rigid.position = new Vector2(Mathf.Round(rigid.position.x), Mathf.Round(rigid.position.y));
             previousPlayerPosition = rigid.position;
@@ -196,9 +187,11 @@ public class PlayerAction : MonoBehaviour
     void PlayerMove()
     {
         rigid.velocity = moveVec * speed;
+
+        AudioManager.instance.isMoving = (rigid.velocity == Vector2.zero);
+
         if ((previousPlayerPosition - rigid.position).magnitude >= 0.97f)
         {
-            isMove = true;
             moveVec = Vector2.zero;
 
             PlayerRaycast();
@@ -207,8 +200,6 @@ public class PlayerAction : MonoBehaviour
 
     void PlayerRaycast()
     {
-        audioManager.isNaviSound = true;
-
         Vector2 raycastDownPosition     = new Vector2(rigid.position.x, rigid.position.y - 0.5f - rayDistance);
         Vector2 raycastUpPosition       = new Vector2(rigid.position.x, rigid.position.y - 0.5f + rayDistance );
         Vector2 raycastLeftPosition     = new Vector2(rigid.position.x - rayDistance, rigid.position.y - 0.5f);
@@ -228,6 +219,34 @@ public class PlayerAction : MonoBehaviour
         Debug.Log("Up " + raycastUp.collider);
         Debug.Log("Right " + raycastRight.collider);
         Debug.Log("Left " + raycastLeft.collider);
+
+        AudioManager.instance.channelIndex= 0;
+
+        //Up Raycast
+        if (raycastUp.collider == null)
+            AudioManager.instance.TakeNavi(AudioManager.Navi.Up, AudioManager.Navi.PathGuide);
+        else if (!raycastUp.collider.CompareTag("BorderLine"))
+            AudioManager.instance.TakeNaviObject(AudioManager.Navi.Up, raycastUp.collider.GetComponent<AudioSource>());
+
+        //Down Raycast
+        if (raycastDown.collider == null)
+            AudioManager.instance.TakeNavi(AudioManager.Navi.Down, AudioManager.Navi.PathGuide);
+        else if (!raycastDown.collider.CompareTag("BorderLine"))
+            AudioManager.instance.TakeNaviObject(AudioManager.Navi.Down, raycastDown.collider.GetComponent<AudioSource>());
+
+        //Left Raycast
+        if (raycastLeft.collider == null)
+            AudioManager.instance.TakeNavi(AudioManager.Navi.Left, AudioManager.Navi.PathGuide);
+        else if (!raycastLeft.collider.CompareTag("BorderLine"))
+            AudioManager.instance.TakeNaviObject(AudioManager.Navi.Left, raycastLeft.collider.GetComponent<AudioSource>());
+
+        //Right Raycast
+        if (raycastRight.collider == null)
+            AudioManager.instance.TakeNavi(AudioManager.Navi.Right, AudioManager.Navi.PathGuide);
+        else if (!raycastRight.collider.CompareTag("BorderLine"))
+            AudioManager.instance.TakeNaviObject(AudioManager.Navi.Right, raycastRight.collider.GetComponent<AudioSource>());
+
+        AudioManager.instance.PlayNavi();
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -236,16 +255,31 @@ public class PlayerAction : MonoBehaviour
         if (collision.gameObject.CompareTag("BorderLine"))
         {
             //Reset Player Position
-            isMove = true;
             moveVec = Vector2.zero;
             rigid.position = new Vector2(Mathf.Round(rigid.position.x), Mathf.Round(rigid.position.y));
+
+            AudioManager.instance.channelIndex = 0;
+
+            AudioManager.Navi direction=0;
+
+            if (vPlayerMoveDirection > 0)
+                direction = AudioManager.Navi.Up;
+            else if (vPlayerMoveDirection < 0)
+                direction = AudioManager.Navi.Down;
+            else if (hPlayerMoveDirection < 0)
+                direction = AudioManager.Navi.Left;
+            else if (hPlayerMoveDirection > 0)
+                direction = AudioManager.Navi.Right;
+
+            AudioManager.instance.TakeNavi(direction, AudioManager.Navi.WallBlock);
+
+            AudioManager.instance.PlayNavi();
+            
         }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-
-
         if (collision.CompareTag("Teleport"))
         {
             rigid.position = collision.transform.Find("TP").position;
