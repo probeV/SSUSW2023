@@ -123,6 +123,39 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &30736740
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 30736741}
+  m_Layer: 0
+  m_Name: F1 FloorTransportation
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &30736741
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 30736740}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 931377532}
+  - {fileID: 756999082}
+  m_Father: {fileID: 57448684}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &54712427
 GameObject:
   m_ObjectHideFlags: 0
@@ -136,7 +169,7 @@ GameObject:
   - component: {fileID: 54712429}
   - component: {fileID: 54712432}
   m_Layer: 0
-  m_Name: F1_bathroom_w_Trigger
+  m_Name: 1016
   m_TagString: Teleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -379,6 +412,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 30736741}
   - {fileID: 1131938368}
   - {fileID: 1110451291}
   - {fileID: 1214674074}
@@ -400,7 +434,7 @@ GameObject:
   - component: {fileID: 78546297}
   - component: {fileID: 78546300}
   m_Layer: 12
-  m_Name: B1_exit_door_not_open_Trigger
+  m_Name: 1003
   m_TagString: ObjectInteraction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1236,7 +1270,7 @@ GameObject:
   - component: {fileID: 173677788}
   - component: {fileID: 173677787}
   m_Layer: 0
-  m_Name: F1_bathroom_w_in_out_Trigger
+  m_Name: 1017
   m_TagString: Teleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1385,7 +1419,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 392902772}
-  m_Father: {fileID: 1735515067}
+  m_Father: {fileID: 641480577}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &189299578
@@ -10516,7 +10550,7 @@ GameObject:
   - component: {fileID: 227298107}
   - component: {fileID: 227298108}
   m_Layer: 12
-  m_Name: B1_stairs_to_F1
+  m_Name: B1 stairs to F1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10535,7 +10569,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1808740753}
-  m_Father: {fileID: 1271847417}
+  m_Father: {fileID: 1841869984}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &227298108
@@ -11087,6 +11121,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 641480577}
   - {fileID: 1735515067}
   - {fileID: 1266115520}
   - {fileID: 1362085349}
@@ -11278,8 +11313,8 @@ GameObject:
   - component: {fileID: 347340210}
   - component: {fileID: 347340209}
   m_Layer: 0
-  m_Name: F2_terrace_window_Trigger
-  m_TagString: Teleport
+  m_Name: 1040
+  m_TagString: ObjectInteraction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11539,7 +11574,7 @@ GameObject:
   - component: {fileID: 377819494}
   - component: {fileID: 377819493}
   m_Layer: 0
-  m_Name: F2_elevator_Trigger
+  m_Name: 1029
   m_TagString: Teleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11669,7 +11704,7 @@ GameObject:
   - component: {fileID: 392902774}
   - component: {fileID: 392902773}
   m_Layer: 0
-  m_Name: F2_stairs_to_F1_Trigger
+  m_Name: 1028
   m_TagString: Teleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11800,7 +11835,7 @@ GameObject:
   - component: {fileID: 414558481}
   - component: {fileID: 414558480}
   m_Layer: 0
-  m_Name: F2_terrace_in_out_Trigger
+  m_Name: 1041
   m_TagString: Teleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12100,7 +12135,7 @@ GameObject:
   - component: {fileID: 418534861}
   - component: {fileID: 418534860}
   m_Layer: 0
-  m_Name: F1_security_office_computer_Trigger
+  m_Name: 1025
   m_TagString: Teleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21494,7 +21529,7 @@ GameObject:
   - component: {fileID: 499641306}
   - component: {fileID: 499641305}
   m_Layer: 0
-  m_Name: F1_conference_hall_in_out_Trigger
+  m_Name: 1021
   m_TagString: Teleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21626,7 +21661,7 @@ GameObject:
   - component: {fileID: 523447462}
   - component: {fileID: 523447465}
   m_Layer: 0
-  m_Name: F1_conference_hall_computer_Trigger
+  m_Name: 1022
   m_TagString: ObjectInteraction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22105,8 +22140,8 @@ GameObject:
   - component: {fileID: 561761626}
   - component: {fileID: 561761625}
   m_Layer: 0
-  m_Name: F2_door_terrace_lock_Trigger
-  m_TagString: Teleport
+  m_Name: 1038
+  m_TagString: ObjectInteraction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22489,7 +22524,7 @@ GameObject:
   - component: {fileID: 621351738}
   - component: {fileID: 621351740}
   m_Layer: 12
-  m_Name: B1_bathroom_w_Trigger
+  m_Name: 1004
   m_TagString: Teleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22870,7 +22905,7 @@ GameObject:
   - component: {fileID: 638382424}
   - component: {fileID: 638382423}
   m_Layer: 0
-  m_Name: F2_bathroom1_m_in_out_Trigger
+  m_Name: 1033
   m_TagString: Teleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22989,6 +23024,38 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 1
   m_SpriteSortPoint: 0
+--- !u!1 &641480576
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 641480577}
+  m_Layer: 0
+  m_Name: F2 FloorTransportation
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &641480577
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 641480576}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 189299577}
+  m_Father: {fileID: 297626280}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &649178809
 GameObject:
   m_ObjectHideFlags: 0
@@ -23087,7 +23154,7 @@ GameObject:
   - component: {fileID: 660287296}
   - component: {fileID: 660287299}
   m_Layer: 13
-  m_Name: B1_locker_1_Trigger
+  m_Name: 1009
   m_TagString: ObjectInteraction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23488,13 +23555,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 667058137}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13, y: 2, z: 0}
+  m_LocalPosition: {x: -4, y: 2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 163113918}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &689100935
 GameObject:
@@ -23508,7 +23575,7 @@ GameObject:
   - component: {fileID: 689100938}
   - component: {fileID: 689100937}
   m_Layer: 0
-  m_Name: F1_water_purifier_Trigger
+  m_Name: 1015
   m_TagString: ObjectInteraction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23910,7 +23977,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 976905669}
-  m_Father: {fileID: 1131938368}
+  m_Father: {fileID: 30736741}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &756999083
@@ -24008,8 +24075,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: d7467fcfccd634803a582f4690695fe4, type: 3}
   naviVolume: 0.5
   channels: 16
-  channelIndex: 0
-  isMoving: 0
 --- !u!4 &768388192
 Transform:
   m_ObjectHideFlags: 0
@@ -31324,7 +31389,7 @@ GameObject:
   - component: {fileID: 874340804}
   - component: {fileID: 874340807}
   m_Layer: 0
-  m_Name: F1_Security_office_in_out_Trigger
+  m_Name: 1020
   m_TagString: Teleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31552,7 +31617,7 @@ GameObject:
   - component: {fileID: 879663620}
   - component: {fileID: 879663623}
   m_Layer: 0
-  m_Name: F1_door_security_office_Trigger
+  m_Name: 1023
   m_TagString: Teleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31779,7 +31844,7 @@ GameObject:
   - component: {fileID: 924491000}
   - component: {fileID: 924490999}
   m_Layer: 0
-  m_Name: F1_bathroom_m_in_out_Trigger
+  m_Name: 1019
   m_TagString: Teleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31909,7 +31974,7 @@ GameObject:
   - component: {fileID: 931377532}
   - component: {fileID: 931377533}
   m_Layer: 0
-  m_Name: F1_stairs_to_F2
+  m_Name: F1 stairs to F2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31928,7 +31993,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1371371361}
-  m_Father: {fileID: 1131938368}
+  m_Father: {fileID: 30736741}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &931377533
@@ -32244,6 +32309,50 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 1
   m_SpriteSortPoint: 0
+--- !u!1 &949313995
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 949313997}
+  - component: {fileID: 949313996}
+  m_Layer: 0
+  m_Name: ObjectManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &949313996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 949313995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f0c1c2ac15058b41ba5dbccf6b42bdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &949313997
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 949313995}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.1958672, y: -8.7324915, z: -0.14687042}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &954083559
 GameObject:
   m_ObjectHideFlags: 0
@@ -32341,8 +32450,8 @@ GameObject:
   - component: {fileID: 976905670}
   - component: {fileID: 976905673}
   m_Layer: 0
-  m_Name: F1_stairs_to_B1_Trigger
-  m_TagString: Teleport
+  m_Name: 1013
+  m_TagString: FloorTeleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32906,7 +33015,7 @@ GameObject:
   - component: {fileID: 1038865354}
   - component: {fileID: 1038865353}
   m_Layer: 0
-  m_Name: F2_bathroom2_w_Trigger
+  m_Name: 1034
   m_TagString: Teleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33037,7 +33146,7 @@ GameObject:
   - component: {fileID: 1041003641}
   - component: {fileID: 1041003640}
   m_Layer: 0
-  m_Name: F2_bathroom1_m_Trigger
+  m_Name: 1031
   m_TagString: Teleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33324,7 +33433,7 @@ GameObject:
   - component: {fileID: 1079517845}
   - component: {fileID: 1079517846}
   m_Layer: 12
-  m_Name: B1_elevator
+  m_Name: B1 elevator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33343,7 +33452,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1316853984}
-  m_Father: {fileID: 1271847417}
+  m_Father: {fileID: 1841869984}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1079517846
@@ -33464,7 +33573,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1110451290
 GameObject:
@@ -33561,8 +33670,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 931377532}
-  - {fileID: 756999082}
   - {fileID: 703920336}
   - {fileID: 1165449666}
   m_Father: {fileID: 57448684}
@@ -33749,7 +33856,7 @@ GameObject:
   - component: {fileID: 1173449394}
   - component: {fileID: 1173449393}
   m_Layer: 0
-  m_Name: F2_bathroom2_m_in_out_Trigger
+  m_Name: 1037
   m_TagString: Teleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33966,7 +34073,7 @@ GameObject:
   - component: {fileID: 1192006209}
   - component: {fileID: 1192006212}
   m_Layer: 0
-  m_Name: F1_coffee_machine_Trigger
+  m_Name: 1027
   m_TagString: ObjectInteraction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -34243,7 +34350,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da015ffb097ef19408c184176a1086f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerHealth: 0
+  playerHealth: 0
+  playerFloor: 0
 --- !u!4 &1222323413
 Transform:
   m_ObjectHideFlags: 0
@@ -34526,7 +34634,7 @@ GameObject:
   - component: {fileID: 1252272412}
   - component: {fileID: 1252272415}
   m_Layer: 0
-  m_Name: F1_bathroom_m_Trigger
+  m_Name: 1018
   m_TagString: Teleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -34753,8 +34861,8 @@ GameObject:
   - component: {fileID: 1252423745}
   - component: {fileID: 1252423744}
   m_Layer: 12
-  m_Name: B1_to_F2_elevator_Trigger
-  m_TagString: Teleport
+  m_Name: 1001
+  m_TagString: FloorTeleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34939,9 +35047,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1447011158}
-  - {fileID: 227298107}
-  - {fileID: 1635775072}
-  - {fileID: 1079517845}
   m_Father: {fileID: 2062706692}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -35060,9 +35165,9 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 297626280}
-  - {fileID: 57448684}
   - {fileID: 2062706692}
+  - {fileID: 57448684}
+  - {fileID: 297626280}
   m_Father: {fileID: 1393680875}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -36453,8 +36558,8 @@ GameObject:
   - component: {fileID: 1316853988}
   - component: {fileID: 1316853990}
   m_Layer: 12
-  m_Name: B1_elevator_Trigger
-  m_TagString: Teleport
+  m_Name: 1002
+  m_TagString: FloorTeleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36864,9 +36969,9 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 229819933}
   - {fileID: 1852474029}
   - {fileID: 649178810}
+  - {fileID: 229819933}
   - {fileID: 215934001}
   m_Father: {fileID: 297626280}
   m_RootOrder: -1
@@ -36884,8 +36989,8 @@ GameObject:
   - component: {fileID: 1371371362}
   - component: {fileID: 1371371365}
   m_Layer: 0
-  m_Name: F1_stairs_to_F2_Trigger
-  m_TagString: Teleport
+  m_Name: 1012
+  m_TagString: FloorTeleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37227,7 +37332,7 @@ Transform:
   - {fileID: 1289957343}
   - {fileID: 1063636776}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1404509586
 GameObject:
@@ -37241,7 +37346,7 @@ GameObject:
   - component: {fileID: 1404509589}
   - component: {fileID: 1404509588}
   m_Layer: 0
-  m_Name: F2_door_terrace_Trigger
+  m_Name: 1039
   m_TagString: Teleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -37373,7 +37478,7 @@ GameObject:
   - component: {fileID: 1415055521}
   - component: {fileID: 1415055523}
   m_Layer: 12
-  m_Name: B1_bathroom_m_Trigger
+  m_Name: 1006
   m_TagString: Teleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -37601,7 +37706,7 @@ GameObject:
   - component: {fileID: 1417113403}
   - component: {fileID: 1417113406}
   m_Layer: 13
-  m_Name: B1_locker_2_Trigger
+  m_Name: 1010
   m_TagString: ObjectInteraction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -38331,7 +38436,7 @@ GameObject:
   - component: {fileID: 1494157540}
   - component: {fileID: 1494157543}
   m_Layer: 13
-  m_Name: B1_locker_3_Trigger
+  m_Name: 1011
   m_TagString: ObjectInteraction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -38726,7 +38831,7 @@ GameObject:
   - component: {fileID: 1522412516}
   - component: {fileID: 1522412515}
   m_Layer: 0
-  m_Name: F1_Security_office_in_out_Trigger
+  m_Name: 1024
   m_TagString: Teleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -39113,7 +39218,7 @@ GameObject:
   - component: {fileID: 1616646596}
   - component: {fileID: 1616646599}
   m_Layer: 0
-  m_Name: F1_elevator_Trigger
+  m_Name: 1014
   m_TagString: ObjectInteraction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -39565,7 +39670,7 @@ GameObject:
   - component: {fileID: 1635775072}
   - component: {fileID: 1635775073}
   m_Layer: 12
-  m_Name: B1_to_F2_elevator
+  m_Name: B1 to F2 elevator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -39584,7 +39689,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1252423743}
-  m_Father: {fileID: 1271847417}
+  m_Father: {fileID: 1841869984}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1635775073
@@ -39651,7 +39756,7 @@ GameObject:
   - component: {fileID: 1636521457}
   - component: {fileID: 1636521456}
   m_Layer: 0
-  m_Name: F2_bathroom2_w_in_out_Trigger
+  m_Name: 1036
   m_TagString: Teleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -53643,7 +53748,7 @@ GameObject:
   - component: {fileID: 1708678004}
   - component: {fileID: 1708678003}
   m_Layer: 0
-  m_Name: F2_bathroom1_w_in_out_Trigger
+  m_Name: 1032
   m_TagString: Teleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -58114,7 +58219,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 189299577}
   - {fileID: 576753228}
   m_Father: {fileID: 297626280}
   m_RootOrder: -1
@@ -58381,7 +58485,7 @@ GameObject:
   - component: {fileID: 1758631201}
   - component: {fileID: 1758631200}
   m_Layer: 12
-  m_Name: B1_bathroom_m_in_out_Trigger
+  m_Name: 1007
   m_TagString: Teleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -58512,7 +58616,7 @@ GameObject:
   - component: {fileID: 1765453098}
   - component: {fileID: 1765453097}
   m_Layer: 0
-  m_Name: F1_bathroom_w_Trigger
+  m_Name: 1030
   m_TagString: Teleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -58728,7 +58832,7 @@ GameObject:
   - component: {fileID: 1792339049}
   - component: {fileID: 1792339048}
   m_Layer: 12
-  m_Name: B1_bathroom_m_tissu_Trigger
+  m_Name: 1008
   m_TagString: ObjectInteraction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -58859,8 +58963,8 @@ GameObject:
   - component: {fileID: 1808740754}
   - component: {fileID: 1808740757}
   m_Layer: 12
-  m_Name: B1_stairs_to_F1_Trigger
-  m_TagString: Teleport
+  m_Name: 1000
+  m_TagString: FloorTeleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -59086,7 +59190,7 @@ GameObject:
   - component: {fileID: 1836208937}
   - component: {fileID: 1836208936}
   m_Layer: 0
-  m_Name: F2_bathroom2_m_Trigger
+  m_Name: 1035
   m_TagString: Teleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -59205,6 +59309,40 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 1
   m_SpriteSortPoint: 0
+--- !u!1 &1841869983
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1841869984}
+  m_Layer: 12
+  m_Name: B1 FloorTransportation
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1841869984
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1841869983}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 227298107}
+  - {fileID: 1635775072}
+  - {fileID: 1079517845}
+  m_Father: {fileID: 2062706692}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1850608329
 GameObject:
   m_ObjectHideFlags: 0
@@ -59409,7 +59547,7 @@ GameObject:
   - component: {fileID: 1872021364}
   - component: {fileID: 1872021367}
   m_Layer: 0
-  m_Name: F1_water_purifier_Trigger
+  m_Name: 1026
   m_TagString: ObjectInteraction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -60573,7 +60711,7 @@ GameObject:
   - component: {fileID: 2046722406}
   - component: {fileID: 2046722405}
   m_Layer: 12
-  m_Name: B1_bathroom_w_in_out_Trigger
+  m_Name: 1005
   m_TagString: Teleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -60754,6 +60892,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1841869984}
   - {fileID: 1271847417}
   - {fileID: 622901399}
   - {fileID: 2054929204}

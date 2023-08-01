@@ -10,7 +10,7 @@ TagManager:
   - BorderLine
   - Teleport
   - ObjectInteraction
-  - NaviSound
+  - FloorTeleport
   layers:
   - Default
   - TransparentFX

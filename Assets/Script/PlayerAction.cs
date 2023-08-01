@@ -278,15 +278,19 @@ public class PlayerAction : MonoBehaviour
         {
             rigid.position = collision.transform.Find("TP").position;
         }
+        else if (collision.CompareTag("FloorTeleport"))
+        {
+            rigid.position = collision.transform.Find("TP").position;
+        }
         else if(collision.CompareTag("ObjectInteraction"))
         {
-
+            moveVec = Vector2.zero;
+            rigid.position = previousPlayerPosition;
         }
+
+        AudioManager.instance.StopNavi();
     }
 
-    void PlayerInteraction()
-    {
-        moveVec = Vector2.zero;
-    }
+
 
 }

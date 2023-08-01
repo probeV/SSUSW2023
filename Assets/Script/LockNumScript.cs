@@ -10,7 +10,7 @@ public class LockNumScript : MonoBehaviour
     public TextMeshProUGUI LockNum2Text;
     public TextMeshProUGUI LockNum3Text;
 
-    int number1, number2, number3 = 0;
+    public int number1, number2, number3 = 0;
 
     void Start()
     {
