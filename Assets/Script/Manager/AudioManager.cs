@@ -37,6 +37,8 @@ public class AudioManager : MonoBehaviour
 
     public enum Navi { Up, Down, Left, Right, PathGuide, WallBlock, B1Guide, F1Guide, F2Guide }
 
+    bool isWalkAudio = true;
+
     //Coroutine
     private IEnumerator playNaviCoroutine;
 
@@ -56,11 +58,12 @@ public class AudioManager : MonoBehaviour
         bgmPlayer.volume = bgmVolume;
         bgmPlayer.clip = bgmClip;
 
+        //Sfx
         GameObject sfxObject = new GameObject("SfxPlayer");
         sfxObject.transform.parent= transform;
         sfxPlayer = sfxObject.AddComponent<AudioSource>();
         sfxPlayer.playOnAwake = false;
-        sfxPlayer.loop = true;
+        sfxPlayer.loop = false;
         sfxPlayer.volume = sfxVolume;
         sfxPlayer.clip = sfxClip;
 
@@ -98,7 +101,14 @@ public class AudioManager : MonoBehaviour
 
     public void PlaySfx()
     {
-        sfxPlayer.Play();
+        if(!sfxPlayer.isPlaying)
+            sfxPlayer.Play();
+    }
+
+    public void StopSfx()
+    {
+        if(sfxPlayer.isPlaying)
+            sfxPlayer.Stop();
     }
 
 
@@ -115,7 +125,7 @@ public class AudioManager : MonoBehaviour
         naviPlayers[naviChannelIndex++].clip = naviClip[(int)navi];
     }
 
-    public void TakeNaviObject(Navi direction, AudioSource[] navi)
+    public void TakeNaviObject(Navi direction, AudioSource navi)
     {
         if (playNaviCoroutine != null)
         {
@@ -125,7 +135,7 @@ public class AudioManager : MonoBehaviour
         }
 
         naviPlayers[naviChannelIndex++].clip = naviClip[(int)direction];
-        naviPlayers[naviChannelIndex++].clip = navi[0].clip;
+        naviPlayers[naviChannelIndex++].clip = navi.clip;
     }
 
     public void PlayNavi()
