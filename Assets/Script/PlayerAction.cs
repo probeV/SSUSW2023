@@ -118,7 +118,11 @@ public class PlayerAction : MonoBehaviour
                 //Move
                 moveVec = new Vector2(0, -1);
             }
+
+            if(moveVec!=Vector2.zero)
+                AudioManager.instance.PlaySfx();
         }
+
     }
 
     void MoveInput()
@@ -286,6 +290,8 @@ public class PlayerAction : MonoBehaviour
         {
             moveVec = Vector2.zero;
             rigid.position = previousPlayerPosition;
+
+            AudioManager.instance.PlayInteraction(collision.transform.GetComponents<AudioSource>()[1]);
         }
 
         AudioManager.instance.StopNavi();

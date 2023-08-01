@@ -8,7 +8,7 @@ public class Toggle_Switch : MonoBehaviour
     public Image On;
     public Image Off;
     public Image img;
-    int index;
+    public int index;
 
     void Start()
     {
