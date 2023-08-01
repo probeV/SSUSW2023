@@ -7,8 +7,8 @@ public class StoryData : MonoBehaviour
 {
     public enum StoryType { Branch, Puzzle, End };
 
-    string storyData;
-    int nextStoryId;
+    public string storyData;
+    public int nextStoryId;
     StoryType storyType;
 
     public StoryData() { }

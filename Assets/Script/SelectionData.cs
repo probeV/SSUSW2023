@@ -14,5 +14,4 @@ public class SelectionData : MonoBehaviour
         this.nextStoryId = nextStoryId;
         this.selectData = selectData;
     }
-
 }
