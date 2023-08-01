@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Runtime.InteropServices.WindowsRuntime;
 using UnityEngine;
 
-public class StoryData : MonoBehaviour
+public class StoryData
 {
     public enum StoryType { Branch, Puzzle, End };
 

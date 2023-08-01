@@ -31,10 +31,14 @@ public class TextSender : MonoBehaviour
         if (currentIndex < storyIds.Length)
         {
             StoryData story = StoryManager.instance.GetStoryData(storyIds[currentIndex]);
-            if (story == null) Debug.Log("ddd");
-            if (story != null)
+            if (story == null)
+            {
+                Debug.Log("StoryData with ID " + storyIds[currentIndex] + " not found.");
+            }
+            else
             {
                 Debug.Log("story !");
+                Debug.Log("StoryData with ID " + storyIds[currentIndex] + " found.");
                 TypingManager.instance.Typing(new string[] { story.storyData }, textObj);
                 currentIndex = story.nextStoryId;
             }
