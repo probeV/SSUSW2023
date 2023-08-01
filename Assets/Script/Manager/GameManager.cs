@@ -8,19 +8,8 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] private int playerFloor;
 
-    void Start()
+    void PlayerOnDamaged()
     {
-        
-    }
-
-    private void Awake()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        playerHealth--;
     }
 }

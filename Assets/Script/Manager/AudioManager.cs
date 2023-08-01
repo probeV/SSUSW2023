@@ -94,7 +94,7 @@ public class AudioManager : MonoBehaviour
         naviPlayers[channelIndex++].clip = naviClip[(int)navi];
     }
 
-    public void TakeNaviObject(Navi direction, AudioSource navi)
+    public void TakeNaviObject(Navi direction, AudioSource[] navi)
     {
         if (playNaviCoroutine != null)
         {
@@ -104,7 +104,7 @@ public class AudioManager : MonoBehaviour
         }
 
         naviPlayers[channelIndex++].clip = naviClip[(int)direction];
-        naviPlayers[channelIndex++].clip = navi.clip;
+        naviPlayers[channelIndex++].clip = navi[0].clip;
     }
 
     public void PlayNavi()
