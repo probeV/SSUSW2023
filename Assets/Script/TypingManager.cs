@@ -3,10 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using Unity.VisualScripting;
+using UnityEngine.SocialPlatforms.Impl;
 
 public class TypingManager : MonoBehaviour
 {
     public static TypingManager instance;
+    public GameObject touchpad;
 
     //기본 속도 : 0.08
     [Header("Times for each character")]
@@ -43,6 +46,7 @@ public class TypingManager : MonoBehaviour
         characterTime = timeForCharacter;           //실제 적용되는 타자시
     }
 
+
     public void Typing(string[] dialogs, TextMeshProUGUI textObj)
     {
         isDialogEnd = false;
@@ -69,8 +73,12 @@ public class TypingManager : MonoBehaviour
         {
             if (isTypingEnd)
             {
+                Debug.Log("here!");
                 tmpSave.text = ""; //비어있는 문장 넘겨서 초기화. 
-                Typing(dialogsSave, tmpSave);
+                TextSender.instance.DisplayNextStory();
+                Debug.Log("here!1");
+                //Typing(new string[] { story.storyData }, textObj);
+                //Typing(dialogsSave, tmpSave);
             }
             else
             {
@@ -85,6 +93,8 @@ public class TypingManager : MonoBehaviour
         if (dialogsSave != null)
         {
             characterTime = timeForCharacter;
+
+            //touchpad.SetActive(true);
         }
     }
 

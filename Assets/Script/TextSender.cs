@@ -10,7 +10,7 @@ public class TextSender : MonoBehaviour
     [Header("Dialogs")]
     public int[] storyIds= { 0,1,2,3,4,5,6,7,8,9,10,11,12,13}; // StoryManager에서 가져올 StoryData의 ID들
     public TextMeshProUGUI textObj;
-
+    public static TextSender instance;
     //private int currentStoryId = 0;
 
     private int currentIndex = 0;
@@ -20,14 +20,20 @@ public class TextSender : MonoBehaviour
 
     private void Start()
     {
-        //TypingManager.instance.Typing(dialogStrings, textObj);
-        DisplayNextStory();
+        instance = this;
 
+        DisplayNextStory();
+        
+    }
+
+    private void Update()
+    {
         
     }
 
     public void DisplayNextStory()
     {
+        Debug.Log("displaynextstory " + currentIndex);
         if (currentIndex < storyIds.Length)
         {
             StoryData story = StoryManager.instance.GetStoryData(storyIds[currentIndex]);
@@ -44,14 +50,4 @@ public class TextSender : MonoBehaviour
             }
         }
     }
-    /*public void DisplayNextStory()
-    {
-        StoryData story = StoryManager.instance.GetStoryData(currentStoryId);
-        if (story != null)
-        {
-            TypingManager.instance.Typing(new string[] { story.storyData }, textObj);
-            currentStoryId = story.nextStoryId;
-        }
-    }*/
-
 }

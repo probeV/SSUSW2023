@@ -32,7 +32,6 @@ public class SafeDial_handler : MonoBehaviour, IDragHandler
         if (reset != null)
         {
             reset.onClick.AddListener(ResetRotation);
-            
         }
     }
 

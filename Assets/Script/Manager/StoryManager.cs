@@ -15,15 +15,6 @@ public class StoryManager : MonoBehaviour
 
     private void Awake()
     {
-        /*// 싱글톤 패턴 적용
-        if (instance == null)
-        {
-            instance = this;
-            DontDestroyOnLoad(gameObject); // 이 객체를 다른 씬으로 전환해도 유지하기 위해 추가
-        } else
-        {
-            Destroy(this.gameObject);
-        }*/
         instance = this;
 
         storyData = new Dictionary<int, StoryData>();
