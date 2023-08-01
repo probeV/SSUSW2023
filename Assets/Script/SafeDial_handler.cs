@@ -10,15 +10,15 @@ public class SafeDial_handler : MonoBehaviour, IDragHandler
 {
     public GameObject dialobject;
     public Button reset;
-    private Quaternion initialRotation;
+    private Quaternion initialRotation; //초기 회전 각도
     public bool success;
     public bool sound;
 
     public AudioSource audioSource; // 오디오 소스 컴포넌트
 
     public float rotateSpeed = 0.000001f;
-    public float targetAngle1 = 140f; // 목표 회전 각도 (예: 90도)
-    public float targetAngle2 = 150f; // 목표 회전 각도 (예: 90도)
+    public float targetAngle1 = 140f; // 목표 회전 각도 범위1
+    public float targetAngle2 = 150f; // 목표 회전 각도 범위2
     private Vector2 startTouchPos;
 
     void Start()
@@ -31,21 +31,7 @@ public class SafeDial_handler : MonoBehaviour, IDragHandler
         if (reset != null)
         {
             reset.onClick.AddListener(ResetRotation);
-        }
-    }
-
-    void Update()
-    {
-        if (success)
-        {
-            Debug.Log("update success");
-            if (!sound)
-            {
-                if (audioSource != null)
-                {
-                    audioSource.Play();
-                }
-            }
+            
         }
     }
 
@@ -68,16 +54,30 @@ public class SafeDial_handler : MonoBehaviour, IDragHandler
             dialobject.transform.rotation = Quaternion.Euler(0f, 0f, rotationZ * rotateSpeed);
             //Debug.Log(dialobject.transform.rotation + "+" + initialRotation);
 
-            // 일정 회전 각도에 도달했을 때
+            // 일정 회전 각도에 도달했는지 검사
             if (Mathf.Abs(rotationZ) >= targetAngle1)
             {
                 Debug.Log("success1");
                 success = true;
-            }
-            else if (Mathf.Abs(rotationZ) <= targetAngle2)
+            } else if (Mathf.Abs(rotationZ) <= targetAngle2)
             {
                 Debug.Log("success2");
                 success = true;
+            }
+
+            //성공 여부 확인 후 소리 실행
+            if (success)
+            {
+                if (!sound)
+                {
+                    if (audioSource != null)
+                    {
+                        Debug.Log("sound play");
+                        audioSource.Play();
+                        sound = true;
+                        return;
+                    }
+                }
             }
         }
     }
@@ -91,6 +91,7 @@ public class SafeDial_handler : MonoBehaviour, IDragHandler
     public void ResetRotation()
     {
         // 초기 회전 값으로 돌아갑니다.
+        Debug.Log("reset");
         dialobject.transform.rotation = initialRotation;
         success = false;
         sound = false;
