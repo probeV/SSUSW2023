@@ -24835,8 +24835,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec62fc83298554142ada149922acc28e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bgmClip: {fileID: 0}
-  bgmVolume: 0.5
+  bgmClip: {fileID: 8300000, guid: e545949f24600bf49803181a01b33059, type: 3}
+  bgmVolume: 0.1
+  sfxClip: {fileID: 0}
+  sfxVolume: 0.1
   naviClip:
   - {fileID: 8300000, guid: f7d5db2f3812f45c08ed18e85a5ba17f, type: 3}
   - {fileID: 8300000, guid: bbf96cc545e44432190adea7b8af5d86, type: 3}
@@ -24848,7 +24850,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: b2f09b003badf4456ab34af3e9fb4e96, type: 3}
   - {fileID: 8300000, guid: d7467fcfccd634803a582f4690695fe4, type: 3}
   naviVolume: 0.5
-  channels: 16
+  naviChannels: 16
   failClip: {fileID: 0}
   failVolume: 0
   successClip: {fileID: 0}

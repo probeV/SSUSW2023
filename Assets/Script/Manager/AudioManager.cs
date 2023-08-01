@@ -13,12 +13,17 @@ public class AudioManager : MonoBehaviour
     public float bgmVolume;
     AudioSource bgmPlayer;
 
+    [Header("#SFX")]
+    public AudioClip sfxClip;
+    public float sfxVolume;
+    AudioSource sfxPlayer;
+
     [Header("#NAVI")]
     public AudioClip[] naviClip;
     public float naviVolume;
-    public int channels;
+    public int naviChannels;
     AudioSource[] naviPlayers;
-    int channelIndex=0;
+    int naviChannelIndex=0;
 
     [Header("#FAIL")]
     public AudioClip failClip;
@@ -51,9 +56,18 @@ public class AudioManager : MonoBehaviour
         bgmPlayer.volume = bgmVolume;
         bgmPlayer.clip = bgmClip;
 
+        GameObject sfxObject = new GameObject("SfxPlayer");
+        sfxObject.transform.parent= transform;
+        sfxPlayer = sfxObject.AddComponent<AudioSource>();
+        sfxPlayer.playOnAwake = false;
+        sfxPlayer.loop = true;
+        sfxPlayer.volume = sfxVolume;
+        sfxPlayer.clip = sfxClip;
+
+
         GameObject naviObject = new GameObject("NaviPlayer");
         naviObject.transform.parent = transform;
-        naviPlayers = new AudioSource[channels];
+        naviPlayers = new AudioSource[naviChannels];
 
         for(int index=0; index < naviPlayers.Length; index++)
         {
@@ -79,7 +93,14 @@ public class AudioManager : MonoBehaviour
         successPlayer.playOnAwake = false;
         successPlayer.volume = successVolume;
         successPlayer.clip = successClip;
+        
     }
+
+    public void PlaySfx()
+    {
+        sfxPlayer.Play();
+    }
+
 
     public void TakeNavi(Navi direction, Navi navi)
     {
@@ -87,11 +108,11 @@ public class AudioManager : MonoBehaviour
         {
             StopNavi();
 
-            channelIndex = 0;
+            naviChannelIndex = 0;
         }
 
-        naviPlayers[channelIndex++].clip= naviClip[(int)direction];
-        naviPlayers[channelIndex++].clip = naviClip[(int)navi];
+        naviPlayers[naviChannelIndex++].clip= naviClip[(int)direction];
+        naviPlayers[naviChannelIndex++].clip = naviClip[(int)navi];
     }
 
     public void TakeNaviObject(Navi direction, AudioSource[] navi)
@@ -100,11 +121,11 @@ public class AudioManager : MonoBehaviour
         {
             StopNavi();
 
-            channelIndex= 0;
+            naviChannelIndex= 0;
         }
 
-        naviPlayers[channelIndex++].clip = naviClip[(int)direction];
-        naviPlayers[channelIndex++].clip = navi[0].clip;
+        naviPlayers[naviChannelIndex++].clip = naviClip[(int)direction];
+        naviPlayers[naviChannelIndex++].clip = navi[0].clip;
     }
 
     public void PlayNavi()
@@ -120,6 +141,20 @@ public class AudioManager : MonoBehaviour
 
         playNaviCoroutine = null;
     }
+    IEnumerator PlayNaviRoutine()
+    {
+        yield return new WaitForSeconds(0.5f);
+
+        for (int index = 0; index < naviChannelIndex;)
+        {
+            yield return new WaitForSeconds(0.1f);
+            if (index == 0 || !naviPlayers[index - 1].isPlaying)
+            {
+                naviPlayers[index].Play();
+                index++;
+            }
+        }
+    }
 
     public void PlayFail()
     {
@@ -131,18 +166,9 @@ public class AudioManager : MonoBehaviour
         successPlayer.Play();
     }
 
-    IEnumerator PlayNaviRoutine()
+    public void PlayInteraction(AudioSource interact)
     {
-        yield return new WaitForSeconds(0.5f);
-
-        for (int index=0 ; index < channelIndex;) 
-        {
-            yield return new WaitForSeconds(0.1f);
-            if (index == 0 || !naviPlayers[index-1].isPlaying)
-            {
-                naviPlayers[index].Play();
-                index++;
-            }
-        }
+        interact.Play();
     }
+ 
 }

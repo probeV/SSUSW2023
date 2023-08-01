@@ -9,7 +9,7 @@ public class ObjectData : MonoBehaviour
 
 class _Object
 {
-    protected string[] txt;
+    protected string[] txt=new string[5];
     protected string[] selection;
 
     public _Object() { }
