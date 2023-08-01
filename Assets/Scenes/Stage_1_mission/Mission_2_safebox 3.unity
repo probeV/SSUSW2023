@@ -2422,6 +2422,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialobject: {fileID: 156653980}
+  clue_popup: {fileID: 535989782}
   reset: {fileID: 1735053431}
   success: 0
   sound: 0
