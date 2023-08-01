@@ -1,3 +1,4 @@
+using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.InteropServices.WindowsRuntime;
@@ -5,7 +6,7 @@ using UnityEngine;
 
 public class StoryData
 {
-    public enum StoryType { Branch, Puzzle, End };
+    public enum StoryType { Null, Branch, Puzzle, End };
 
     public string storyData;
     public int nextStoryId;
@@ -17,11 +18,17 @@ public class StoryData
     {
         this.nextStoryId = nextStoryId;
         this.storyData = storyData;
+        this.storyType = StoryType.Null;
     }
 
     public StoryData(StoryType storyType, string storyData)
     {
         this.storyData = storyData;
         this.storyType = storyType;
+    }
+
+    public StoryType GetStoryType(StoryData story)
+    {
+        return storyType;
     }
 }

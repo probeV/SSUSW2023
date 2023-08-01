@@ -9,6 +9,9 @@ using UnityEngine.SocialPlatforms.Impl;
 public class TypingManager : MonoBehaviour
 {
     public static TypingManager instance;
+    public int count = 0; //하드 코딩
+    public GameObject changebar; //하드코딩
+    //public int idNumber; //하드코딩
 
     //기본 속도 : 0.08
     [Header("Times for each character")]
@@ -46,10 +49,12 @@ public class TypingManager : MonoBehaviour
 
     public void Typing(string[] dialogs, TextMeshProUGUI textObj)
     {
-        Debug.Log("Typing");
+
+        Debug.Log("Typing" + count);
         isDialogEnd = false;
         dialogsSave = dialogs;
         tmpSave = textObj;
+        //idNumber = id; //하드코딩
 
         char[] chars = dialogs[dialogNumber].ToCharArray();
         StartCoroutine(Typer(chars, textObj)); 
@@ -100,7 +105,7 @@ public class TypingManager : MonoBehaviour
                 yield return null;
                 timer -= Time.deltaTime;
             }
-            else
+            else 
             {
                 textObj.text += chars[currentChar].ToString();
                 currentChar++;
@@ -110,9 +115,46 @@ public class TypingManager : MonoBehaviour
         if (currentChar >= charLength)
         {
             isTypingEnd = true;
-
+            
+            
+            if (count == 6) //하드코딩
+            {
+                changebar.SetActive(true);
+            }
+            count++;//하드코딩
             dialogNumber++;
             yield break;
+        }
+    }
+
+    public void C1_GetInputDown()
+    {
+        changebar.SetActive(false);
+        if (dialogsSave != null)
+        {
+            if (isTypingEnd)
+            {
+                tmpSave.text = ""; //비어있는 문장 넘겨서 초기화. 
+                isDialogEnd = true;
+                dialogsSave = null;
+                tmpSave = null;
+                dialogNumber = 0;
+                TextSender.instance.DisplayNextStory();
+
+            }
+            else
+            {
+                characterTime = timeForCharacter_Fast; //빠른 문장 넘김.
+            }
+        }
+    }
+
+    public void C1_GetInputUp()
+    {
+        //인풋이 끝났을때.
+        if (dialogsSave != null)
+        {
+            characterTime = timeForCharacter;
         }
     }
 }

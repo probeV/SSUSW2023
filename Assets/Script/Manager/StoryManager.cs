@@ -28,7 +28,7 @@ public class StoryManager : MonoBehaviour
         storyData.Add(0, new StoryData(1, "....! 눈을 떴을 때는 사방이 암흑이었다. 손목에 있는 시계를 보니 새벽 2시. \n\n내일 있는 전공 시험을 준비하기 위해 새벽까지 과방에서 공부를 하고 있다가 잠들었나보다...."));
         storyData.Add(1, new StoryData(2, "과방 문은 잠겨 있어, 문은 열리지 않는다.\n\n핸드폰은 배터리가 꺼져 있어 연락할 방법이 없다. 밖은 비가 오는지 소리가 폭풍우 소리가 들린다.\n\n내일 아침 9시에 시험있는데..\n\n그 전까지 정보섬을 탈출할 수 있을까?"));
         storyData.Add(2, new StoryData(3, "우선 과방을 나갈 방법을 찾아야 할 것 같다. 과방을 둘러보자."));
-        storyData.Add(3, new StoryData(4, "당신이 일어난 책상 위에 올려져 있는 물건들을 찾아보다가 포스트잇을 발견했다. \n\n그러나 어두워서 포스트잇에 적힌 글씨는 잘 보이지 않는다."));
+        storyData.Add(3, new StoryData(4, "잠들었던 책상을 먼저 살펴보았다. 책상 위에 올려져 있는 물건들을 찾아보다가 포스트잇을 발견했다. \n\n그러나 어두워서 포스트잇에 적힌 글씨는 잘 보이지 않는다."));
         storyData.Add(4, new StoryData(5, "책상 맞은 편에 있는 냉장고에 가보았다. 냉장고 문을 열자 불빛이 들어 온다. 냉장고 안에서 배터리를 발견했다."));
         storyData.Add(5, new StoryData(6, "냉장고 불빛이 약하긴 하지만, 포스트잇을 불빛에 비춰 볼 수 있다."));
         storyData.Add(6, new StoryData(StoryData.StoryType.Branch, "포스트잇에는 “캐비넷 열쇠를 동방 침대에서 잃어 버렸어요. 찾아주세요. - 동아리원” 이라고 씌여있다."));

@@ -43,6 +43,11 @@ public class TextSender : MonoBehaviour
                 Debug.Log("StoryData with ID " + storyIds[currentIndex] + " found.");
                 Debug.Log(story.storyData);
                 TypingManager.instance.Typing(new string[] { story.storyData }, textObj);
+
+                /*if (story.GetStoryType(story)==StoryData.StoryType.Branch)
+                {
+                    changebar.SetActive(true);
+                }*/
                 currentIndex = story.nextStoryId;
             }
         }
