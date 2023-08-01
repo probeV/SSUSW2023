@@ -24,7 +24,4 @@ public class StoryData : MonoBehaviour
         this.storyData = storyData;
         this.storyType = storyType;
     }
-
-
-
 }

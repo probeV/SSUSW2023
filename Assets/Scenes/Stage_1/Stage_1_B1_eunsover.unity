@@ -13569,7 +13569,7 @@ TilemapRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 791adf9adec47d6418671c55099984cf, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -24075,6 +24075,10 @@ MonoBehaviour:
   - {fileID: 8300000, guid: d7467fcfccd634803a582f4690695fe4, type: 3}
   naviVolume: 0.5
   channels: 16
+  failClip: {fileID: 0}
+  failVolume: 0
+  successClip: {fileID: 0}
+  successVolume: 0
 --- !u!4 &768388192
 Transform:
   m_ObjectHideFlags: 0
