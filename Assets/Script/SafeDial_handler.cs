@@ -12,16 +12,20 @@ public class SafeDial_handler : MonoBehaviour, IDragHandler
     public Button reset;
     private Quaternion initialRotation;
     public bool success;
+    public bool sound;
+
+    public AudioSource audioSource; // 오디오 소스 컴포넌트
 
     public float rotateSpeed = 0.000001f;
-    public float targetAngle1 = 216f; // 목표 회전 각도 (예: 90도)
-    public float targetAngle2 = -144f; // 목표 회전 각도 (예: 90도)
+    public float targetAngle1 = 140f; // 목표 회전 각도 (예: 90도)
+    public float targetAngle2 = 150f; // 목표 회전 각도 (예: 90도)
     private Vector2 startTouchPos;
 
     void Start()
     {
         initialRotation = dialobject.transform.rotation;
         success = false;
+        sound = false;
 
         // Reset 버튼 클릭 시 ResetRotation() 메서드를 실행하는 이벤트 리스너 등록
         if (reset != null)
@@ -32,21 +36,17 @@ public class SafeDial_handler : MonoBehaviour, IDragHandler
 
     void Update()
     {
-        if(dialobject.transform.rotation.z > -0.9001f)
+        if (success)
         {
-            Debug.Log("hi1");
-            if (dialobject.transform.rotation.z < -0.9999f)
+            Debug.Log("update success");
+            if (!sound)
             {
-                Debug.Log("hi2");
-                if (dialobject.transform.rotation.w > 0.2401f)
+                if (audioSource != null)
                 {
-                    Debug.Log("hi3");
-                    if (dialobject.transform.rotation.w < 0.3201f)
-                        Debug.Log("ㅎㅇㅎㅇ ");
+                    audioSource.Play();
                 }
             }
         }
-        Debug.Log("hi");
     }
 
     public void OnDrag(PointerEventData eventData)
@@ -69,12 +69,16 @@ public class SafeDial_handler : MonoBehaviour, IDragHandler
             //Debug.Log(dialobject.transform.rotation + "+" + initialRotation);
 
             // 일정 회전 각도에 도달했을 때
-            if (Mathf.Abs(rotationZ) >= targetAngle1 || Mathf.Abs(rotationZ) >= targetAngle2)
+            if (Mathf.Abs(rotationZ) >= targetAngle1)
             {
-                Debug.Log("success");
+                Debug.Log("success1");
                 success = true;
             }
-            
+            else if (Mathf.Abs(rotationZ) <= targetAngle2)
+            {
+                Debug.Log("success2");
+                success = true;
+            }
         }
     }
     
@@ -88,7 +92,16 @@ public class SafeDial_handler : MonoBehaviour, IDragHandler
     {
         // 초기 회전 값으로 돌아갑니다.
         dialobject.transform.rotation = initialRotation;
+        success = false;
+        sound = false;
     }
 
-
+    /*public void PlaySuccessSound()
+    {
+        // 오디오 소스 컴포넌트가 있다면 오디오를 재생합니다.
+        if (audioSource != null)
+        {
+            audioSource.Play();
+        }
+    }*/
 }
