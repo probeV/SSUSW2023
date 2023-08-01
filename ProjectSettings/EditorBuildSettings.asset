@@ -6,13 +6,13 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/MainPage/StartMenuScene.unity
+    path: Assets/Scenes/Game/MainPage/StartMenuScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/MainPage/MyPage.unity
+    path: Assets/Scenes/Game/MainPage/MyPage.unity
     guid: 7d7fd280774c4440496746b22279d744
   - enabled: 1
-    path: Assets/Scenes/MainPage/Settings.unity
+    path: Assets/Scenes/Game/MainPage/Settings.unity
     guid: c8bcf005006964bbf8685d5a1db918ba
   - enabled: 0
     path: Assets/Scenes/Game/GameScene.unity
@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Game/ThemeSelect.unity
     guid: 9215f72d6a01649d3ad80fdade124071
+  - enabled: 1
+    path: Assets/Scenes/Game/1st_stage_001/StoryGameScene_001.unity
+    guid: 920bcb1a2f1c8c3498ca048abc2102ef
   m_configObjects: {}
