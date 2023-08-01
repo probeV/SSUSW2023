@@ -111,6 +111,7 @@ public class TypingManager : MonoBehaviour
         if (currentChar >= charLength)
         {
             isTypingEnd = true;
+
             dialogNumber++;
             yield break;
         }

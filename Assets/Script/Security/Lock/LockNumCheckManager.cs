@@ -7,9 +7,9 @@ using System;
 
 public class LockNumCheckManager : MonoBehaviour
 {
-    public string number1 = "num1";
-    public string number2 = "num2";
-    public string number3 = "num3";
+    //public string number1 = "num1";
+    //public string number2 = "num2";
+    //public string number3 = "num3";
 
     public int n1, n2, n3;
 
@@ -27,9 +27,6 @@ public class LockNumCheckManager : MonoBehaviour
 
     public void LockNumCheck()
     {
-
-        AudioSource Fail = gameObject.AddComponent<AudioSource>();
-
 
         GameObject num1Text = GameObject.Find("FirstDigitText");
         GameObject num2Text = GameObject.Find("SecondDigitText");
