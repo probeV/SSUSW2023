@@ -18,8 +18,7 @@ public class AudioManager : MonoBehaviour
     public float naviVolume;
     public int channels;
     AudioSource[] naviPlayers;
-    [HideInInspector]
-    public int channelIndex=0;
+    int channelIndex=0;
 
     [Header("#FAIL")]
     public AudioClip failClip;
@@ -86,10 +85,9 @@ public class AudioManager : MonoBehaviour
     {
         if(playNaviCoroutine!= null)
         {
-            StopCoroutine(playNaviCoroutine);
-            playNaviCoroutine = null;
+            StopNavi();
 
-            channelIndex= 0;
+            channelIndex = 0;
         }
 
         naviPlayers[channelIndex++].clip= naviClip[(int)direction];
@@ -100,8 +98,7 @@ public class AudioManager : MonoBehaviour
     {
         if (playNaviCoroutine != null)
         {
-            StopCoroutine(playNaviCoroutine);
-            playNaviCoroutine = null;
+            StopNavi();
 
             channelIndex= 0;
         }
@@ -115,6 +112,13 @@ public class AudioManager : MonoBehaviour
         playNaviCoroutine=PlayNaviRoutine();
 
         StartCoroutine(playNaviCoroutine);
+    }
+    
+    public void StopNavi()
+    {
+        StopCoroutine(playNaviCoroutine);
+
+        playNaviCoroutine = null;
     }
 
     public void PlayFail()

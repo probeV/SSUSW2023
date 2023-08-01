@@ -4,11 +4,16 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    [SerializeField]
-    private int PlayerHealth;
+    [SerializeField] private int playerHealth;
 
+    [SerializeField] private int playerFloor;
 
     void Start()
+    {
+        
+    }
+
+    private void Awake()
     {
         
     }
