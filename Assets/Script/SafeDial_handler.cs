@@ -116,13 +116,4 @@ public class SafeDial_handler : MonoBehaviour, IDragHandler
             clue_popup.SetActive(true);
         }
     }
-
-    /*public void PlaySuccessSound()
-    {
-        // 오디오 소스 컴포넌트가 있다면 오디오를 재생합니다.
-        if (audioSource != null)
-        {
-            audioSource.Play();
-        }
-    }*/
 }

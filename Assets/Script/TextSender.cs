@@ -15,9 +15,6 @@ public class TextSender : MonoBehaviour
 
     private int currentIndex = 0;
 
-    //public string[] dialogStrings;
-    //public TextMeshProUGUI textObj;
-
     private void Start()
     {
         instance = this;
@@ -43,8 +40,8 @@ public class TextSender : MonoBehaviour
             }
             else
             {
-                Debug.Log("story !");
                 Debug.Log("StoryData with ID " + storyIds[currentIndex] + " found.");
+                Debug.Log(story.storyData);
                 TypingManager.instance.Typing(new string[] { story.storyData }, textObj);
                 currentIndex = story.nextStoryId;
             }

@@ -9,7 +9,6 @@ using UnityEngine.SocialPlatforms.Impl;
 public class TypingManager : MonoBehaviour
 {
     public static TypingManager instance;
-    public GameObject touchpad;
 
     //기본 속도 : 0.08
     [Header("Times for each character")]
@@ -37,10 +36,8 @@ public class TypingManager : MonoBehaviour
     private void Awake()
     {
         //싱글톤 패턴 구현
-        if (instance == null)
-        {
-            instance = this;
-        }
+        instance = this;
+        
 
         timer = timeForCharacter;
         characterTime = timeForCharacter;           //실제 적용되는 타자시
@@ -49,22 +46,14 @@ public class TypingManager : MonoBehaviour
 
     public void Typing(string[] dialogs, TextMeshProUGUI textObj)
     {
+        Debug.Log("Typing");
         isDialogEnd = false;
         dialogsSave = dialogs;
         tmpSave = textObj;
-        if (dialogNumber < dialogs.Length)
-        {
-            char[] chars = dialogs[dialogNumber].ToCharArray();
-            StartCoroutine(Typer(chars, textObj)); 
-        }
-        else
-        {
-            tmpSave.text = "";
-            isDialogEnd = true; 
-            dialogsSave = null;
-            tmpSave = null;
-            dialogNumber = 0;
-        }
+
+        char[] chars = dialogs[dialogNumber].ToCharArray();
+        StartCoroutine(Typer(chars, textObj)); 
+
     }
 
     public void GetInputDown()
@@ -73,12 +62,13 @@ public class TypingManager : MonoBehaviour
         {
             if (isTypingEnd)
             {
-                Debug.Log("here!");
                 tmpSave.text = ""; //비어있는 문장 넘겨서 초기화. 
+                isDialogEnd = true; 
+                dialogsSave = null;
+                tmpSave = null;
+                dialogNumber = 0;
                 TextSender.instance.DisplayNextStory();
-                Debug.Log("here!1");
-                //Typing(new string[] { story.storyData }, textObj);
-                //Typing(dialogsSave, tmpSave);
+
             }
             else
             {
@@ -92,14 +82,13 @@ public class TypingManager : MonoBehaviour
         //인풋이 끝났을때.
         if (dialogsSave != null)
         {
-            characterTime = timeForCharacter;
-
-            //touchpad.SetActive(true);
+            characterTime = timeForCharacter;            
         }
     }
 
     IEnumerator Typer(char[] chars, TextMeshProUGUI textObj)
     {
+        Debug.Log("typer");
         int currentChar = 0;
         int charLength = chars.Length;
         isTypingEnd = false;

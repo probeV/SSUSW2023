@@ -7,7 +7,6 @@ using UnityEngine;
 public class StoryManager : MonoBehaviour
 {
     // 싱글톤 패턴을 위한 instance 변수
-    //public static StoryManager instance { get; private set; }
     public static StoryManager instance;
 
     Dictionary<int, StoryData> storyData;
