@@ -222,25 +222,25 @@ public class PlayerAction : MonoBehaviour
         if (raycastUp.collider == null)
             AudioManager.instance.TakeNavi(AudioManager.Navi.Up, AudioManager.Navi.PathGuide);
         else if (!raycastUp.collider.CompareTag("BorderLine"))
-            AudioManager.instance.TakeNaviObject(AudioManager.Navi.Up, raycastUp.collider.GetComponent<AudioSource>());
+            AudioManager.instance.TakeNaviObject(AudioManager.Navi.Up, raycastUp.collider.GetComponents<AudioSource>());
 
         //Down Raycast
         if (raycastDown.collider == null)
             AudioManager.instance.TakeNavi(AudioManager.Navi.Down, AudioManager.Navi.PathGuide);
         else if (!raycastDown.collider.CompareTag("BorderLine"))
-            AudioManager.instance.TakeNaviObject(AudioManager.Navi.Down, raycastDown.collider.GetComponent<AudioSource>());
+            AudioManager.instance.TakeNaviObject(AudioManager.Navi.Down, raycastDown.collider.GetComponents<AudioSource>());
 
         //Left Raycast
         if (raycastLeft.collider == null)
             AudioManager.instance.TakeNavi(AudioManager.Navi.Left, AudioManager.Navi.PathGuide);
         else if (!raycastLeft.collider.CompareTag("BorderLine"))
-            AudioManager.instance.TakeNaviObject(AudioManager.Navi.Left, raycastLeft.collider.GetComponent<AudioSource>());
+            AudioManager.instance.TakeNaviObject(AudioManager.Navi.Left, raycastLeft.collider.GetComponents<AudioSource>());
 
         //Right Raycast
         if (raycastRight.collider == null)
             AudioManager.instance.TakeNavi(AudioManager.Navi.Right, AudioManager.Navi.PathGuide);
         else if (!raycastRight.collider.CompareTag("BorderLine"))
-            AudioManager.instance.TakeNaviObject(AudioManager.Navi.Right, raycastRight.collider.GetComponent<AudioSource>());
+            AudioManager.instance.TakeNaviObject(AudioManager.Navi.Right, raycastRight.collider.GetComponents<AudioSource>());
 
         AudioManager.instance.PlayNavi();
     }
