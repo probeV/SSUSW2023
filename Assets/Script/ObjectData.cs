@@ -32,7 +32,7 @@ class _Object
 
 class ObjectSecurityOfficeDoor : _Object
 {
-    bool isSolved = false;
+    //bool isSolved = false;
 
     public ObjectSecurityOfficeDoor(string[] txt)
     {

@@ -37,7 +37,7 @@ public class AudioManager : MonoBehaviour
 
     public enum Navi { Up, Down, Left, Right, PathGuide, WallBlock, B1Guide, F1Guide, F2Guide }
 
-    bool isWalkAudio = true;
+    //bool isWalkAudio = true;
 
     //Coroutine
     private IEnumerator playNaviCoroutine;
