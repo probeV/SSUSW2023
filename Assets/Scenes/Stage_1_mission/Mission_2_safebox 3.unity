@@ -2422,7 +2422,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialobject: {fileID: 156653980}
-  reset: {fileID: 0}
+  reset: {fileID: 1735053431}
   success: 0
   sound: 0
   audioSource: {fileID: 732809555}

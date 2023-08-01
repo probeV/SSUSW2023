@@ -9,6 +9,7 @@ using UnityEngine.UI;
 public class SafeDial_handler : MonoBehaviour, IDragHandler
 {
     public GameObject dialobject;
+    public GameObject clue_popup;
     public Button reset;
     private Quaternion initialRotation; //초기 회전 각도
     public bool success;
@@ -75,6 +76,9 @@ public class SafeDial_handler : MonoBehaviour, IDragHandler
                         Debug.Log("sound play");
                         audioSource.Play();
                         sound = true;
+
+                        // 1초 딜레이 후에 OpenPopup() 메서드를 실행합니다.
+                        StartCoroutine(DelayedCall());
                         return;
                     }
                 }
@@ -95,6 +99,23 @@ public class SafeDial_handler : MonoBehaviour, IDragHandler
         dialobject.transform.rotation = initialRotation;
         success = false;
         sound = false;
+    }
+
+    //OpenPopup()을 위한 딜레이 메서드
+    private IEnumerator DelayedCall()
+    {
+        yield return new WaitForSeconds(1.5f); // 1초 딜레이
+
+        OpenPopup(); // 딜레이 후 실행할 메서드
+    }
+
+    private void OpenPopup()
+    {
+        if (clue_popup != null)
+        {
+            Debug.Log("clue popup open");
+            clue_popup.SetActive(true);
+        }
     }
 
     /*public void PlaySuccessSound()
