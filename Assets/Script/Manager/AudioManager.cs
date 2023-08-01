@@ -20,6 +20,16 @@ public class AudioManager : MonoBehaviour
     AudioSource[] naviPlayers;
     int channelIndex=0;
 
+    [Header("#FAIL")]
+    public AudioClip failClip;
+    public float failVolume;
+    AudioSource failPlayer;
+
+    [Header("#SUCCESS")]
+    public AudioClip successClip;
+    public float successVolume;
+    AudioSource successPlayer;
+
     public enum Navi { Up, Down, Left, Right, PathGuide, WallBlock, B1Guide, F1Guide, F2Guide }
 
     //Coroutine
@@ -51,6 +61,24 @@ public class AudioManager : MonoBehaviour
             naviPlayers[index].playOnAwake = false;
             naviPlayers[index].volume = naviVolume;
         }
+
+
+        //Fail
+        GameObject failObject = new GameObject("failPlayer");
+        failObject.transform.parent = transform;
+        failPlayer = failObject.AddComponent<AudioSource>();
+        failPlayer.playOnAwake = false;
+        failPlayer.volume = failVolume;
+        failPlayer.clip = failClip;
+
+
+        //Success
+        GameObject successObject = new GameObject("successPlayer");
+        successObject.transform.parent = transform;
+        successPlayer = successObject.AddComponent<AudioSource>();
+        successPlayer.playOnAwake = false;
+        successPlayer.volume = successVolume;
+        successPlayer.clip = successClip;
     }
 
     public void TakeNavi(Navi direction, Navi navi)
@@ -85,12 +113,22 @@ public class AudioManager : MonoBehaviour
 
         StartCoroutine(playNaviCoroutine);
     }
-
+    
     public void StopNavi()
     {
         StopCoroutine(playNaviCoroutine);
 
         playNaviCoroutine = null;
+    }
+
+    public void PlayFail()
+    {
+        failPlayer.Play();
+    }
+
+    public void PlaySuccess()
+    {
+        successPlayer.Play();
     }
 
     IEnumerator PlayNaviRoutine()
