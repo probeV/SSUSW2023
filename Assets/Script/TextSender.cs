@@ -15,7 +15,6 @@ public class TextSender : MonoBehaviour
 
     private int currentIndex = 0;
 
-
     //public string[] dialogStrings;
     //public TextMeshProUGUI textObj;
 
@@ -32,6 +31,7 @@ public class TextSender : MonoBehaviour
         if (currentIndex < storyIds.Length)
         {
             StoryData story = StoryManager.instance.GetStoryData(storyIds[currentIndex]);
+            if (story == null) Debug.Log("ddd");
             if (story != null)
             {
                 Debug.Log("story !");

@@ -7,14 +7,15 @@ using UnityEngine;
 public class StoryManager : MonoBehaviour
 {
     // ΩÃ±€≈Ê ∆–≈œ¿ª ¿ß«— instance ∫Øºˆ
-    public static StoryManager instance { get; private set; }
+    //public static StoryManager instance { get; private set; }
+    public static StoryManager instance;
 
     Dictionary<int, StoryData> storyData;
     Dictionary<int, SelectionData> selectData;
 
     private void Awake()
     {
-        // ΩÃ±€≈Ê ∆–≈œ ¿˚øÎ
+        /*// ΩÃ±€≈Ê ∆–≈œ ¿˚øÎ
         if (instance == null)
         {
             instance = this;
@@ -22,7 +23,8 @@ public class StoryManager : MonoBehaviour
         } else
         {
             Destroy(this.gameObject);
-        }
+        }*/
+        instance = this;
 
         storyData = new Dictionary<int, StoryData>();
         selectData  = new Dictionary<int, SelectionData>();
